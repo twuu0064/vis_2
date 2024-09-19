@@ -1,0 +1,13 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Net Interstate Migration",
+    "data": {"url": "data/interstate_migration.csv"},
+    "mark": "line",
+    "encoding": {
+      "x": {"field": "Date", "type": "temporal"},
+      "y": {"field": "Net Interstate Migration", "type": "quantitative"},
+      "color": {"field": "State", "type": "nominal"}
+    }
+
+  }
+  

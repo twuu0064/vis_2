@@ -1,0 +1,51 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "https://raw.githubusercontent.com/tan1shaa/vis_2/refs/heads/main/data/interstate_migration.csv"},
+    "encoding": {"x": {"field": "Date", "type": "temporal"}},
+    "layer": [
+      {
+        "encoding": {
+          "color": {"field": "State", "type": "nominal",
+                        "scale": {"scheme": "set2"}},
+          "y": {"field": "Net Interstate Migration", "type": "quantitative"}
+        },
+        "layer": [
+          {"mark": "line"},
+          {"transform": [{"filter": {"param": "hover", "empty": false}}], "mark": "point"}
+        ]
+      },
+      {
+        "transform": [{"pivot": "State", "value": "Net Interstate Migration", "groupby": ["Date"]}],
+        "mark": "rule",
+        "encoding": {
+          "opacity": {
+            "condition": {"value": 0.3, "param": "hover", "empty": false},
+            "value": 0
+          },
+          "tooltip": [
+            {"field": "Date", "type": "temporal"},
+            {"field": "ACT", "type": "quantitative"},
+            {"field": "NSW", "type": "quantitative"},
+            {"field": "NT", "type": "quantitative"},
+            {"field": "QLD", "type": "quantitative"},
+            {"field": "SA", "type": "quantitative"},
+            {"field": "TAS", "type": "quantitative"},
+            {"field": "VIC", "type": "quantitative"},
+            {"field": "WA", "type": "quantitative"}
+          ]
+        },
+        "params": [{
+          "name": "hover",
+          "select": {
+            "type": "point",
+            "fields": ["Date"],
+            "nearest": true,
+            "on": "pointerover",
+            "clear": "pointerout"
+          }
+        }]
+      }
+    ]
+  }
+  
+  
