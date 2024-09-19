@@ -3,7 +3,7 @@
     "title": "2023 State Population Density (Persons/km2)",
     "projection": {"type": "equalEarth"},
     "data": {
-        "url": "https://raw.githubusercontent.com/tan1shaa/vis_2/refs/heads/main/js/ausStates.json",
+        "url": "https://raw.githubusercontent.com/twuu0064/vis_2/main/js/ausStates.json",
         "format": {"type": "topojson", "feature": "STE_2021_AUST_GDA2020"}
     },
     "transform": [
@@ -11,7 +11,7 @@
         "lookup": "properties.STE_NAME21",
         "from": {
         "data": {
-        "url": "https://raw.githubusercontent.com/tan1shaa/vis_2/refs/heads/main/data/PopulationDensity.csv"
+        "url": "https://raw.githubusercontent.com/twuu0064/vis_2/main/data/PopulationDensity.csv"
         },
         "key": "State/Territory",
         "fields": ["Population Density"]
