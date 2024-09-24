@@ -28,9 +28,6 @@
     <link rel="stylesheet" href="css/styles.css">
 
 
-    <!-- Embed vegalite vises -->
-     <script> src = "js/vega_lite_vis.js" </script>
-
     <title> The Population of Australia</title>
 
 </head>
@@ -56,6 +53,16 @@
     <h2> The Future Population</h2>
 
 
+
+    <script type="text/javascript">
+
+    var vg_2 = "./js/population_density.vg.json";
+
+    vegaEmbed("#pop_density", vg_2).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view 
+        }).catch(console.error);
+
+    </script>
 
 
 </body>
