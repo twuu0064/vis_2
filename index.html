@@ -46,6 +46,7 @@
 
     <h2> <span class = 'aus_subheading'> Australians</span> by State and Territory</h2>
 
+    <div id="int_mig"></div>
 
     <h2> Age and Sex of <span class = 'aus_subheading'> Australians</span></h2>
 
@@ -57,11 +58,15 @@
     <script type="text/javascript">
 
     var vg_2 = "./js/population_density.vg.json";
+    var vg_3 = "./js/interstate_migration.vg.json"
 
     vegaEmbed("#pop_density", vg_2).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view 
         }).catch(console.error);
 
+    vegaEmbed("#int_mig", vg_3).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view 
+        }).catch(console.error);
     </script>
 
 

@@ -109,6 +109,9 @@
   
   
 /*  Selectors in HTML */ 
+body {
+  background-color: #d2f6fa;
+}
 .aus_title {
     color: #00008B; 
     font-family: 'Cookie';

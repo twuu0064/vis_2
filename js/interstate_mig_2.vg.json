@@ -5,7 +5,7 @@
     "layer": [
       {
         "encoding": {
-          "color": {"field": "State", "type": "nominal",
+          "color": {"field": "State/Territory", "type": "nominal",
                         "scale": {"scheme": "set2"}},
           "y": {"field": "Net Interstate Migration", "type": "quantitative"}
         },
@@ -15,7 +15,7 @@
         ]
       },
       {
-        "transform": [{"pivot": "State", "value": "Net Interstate Migration", "groupby": ["Date"]}],
+        "transform": [{"pivot": "State/Territory", "value": "Net Interstate Migration", "groupby": ["Date"]}],
         "mark": "rule",
         "encoding": {
           "opacity": {
