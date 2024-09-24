@@ -1,6 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": "2023 State Population Density (Persons/km2)",
+    "width": 600,
+    "height": 400,
     "projection": {"type": "equalEarth"},
     "data": {
         "url": "https://raw.githubusercontent.com/twuu0064/vis_2/main/js/ausStates.json",
