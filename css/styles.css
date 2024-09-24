@@ -135,3 +135,21 @@ h2 {
     color: #00008B;
     font-style: italic; 
 }
+
+h3 {
+  font-family: 'Sarabun';
+  font-weight: 600;
+  text-align: center;
+  font-size: 25px;
+}
+
+p {
+  font-family: 'Sarabun';
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.subtext {
+  font-size: 12px;
+  text-align: center;
+}
