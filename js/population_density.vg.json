@@ -31,7 +31,7 @@
         "tooltip": [
             {"field": "properties.STE_NAME21", "type": "nominal", "title":
             "State"},
-            {"field": "Population Density", "type": "quantitative"}
+            {"field": "Population Density", "type": "quantitative", "title": "Population Density (persons/km2)"}
             ]
     }
     }

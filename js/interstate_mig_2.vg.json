@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "data": {"url": "https://raw.githubusercontent.com/tan1shaa/vis_2/refs/heads/main/data/interstate_migration.csv"},
+    "data": {"url": "https://raw.githubusercontent.com/twuu0064/vis_2/refs/heads/main/data/interstate_migration.csv"},
     "encoding": {"x": {"field": "Date", "type": "temporal"}},
     "layer": [
       {
