@@ -111,6 +111,8 @@
 /*  Selectors in HTML */ 
 body {
   background-color: #d2f6fa;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 .aus_title {
     color: #00008B; 
