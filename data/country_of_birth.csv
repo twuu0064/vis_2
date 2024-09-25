@@ -67,7 +67,7 @@
 "San Marino","1996",0
 "Spain","1996",14710
 "Albania","1996",1200
-"Bosnia/Herzegov","1996",20570
+"Bosnia/Herzegovina","1996",20570
 "Bulgaria","1996",2600
 "Croatia","1996",57640
 "Cyprus","1996",23310
@@ -322,7 +322,7 @@
 "San Marino","1997",0
 "Spain","1997",14560
 "Albania","1997",1290
-"Bosnia/Herzegov","1997",24950
+"Bosnia/Herzegovina","1997",24950
 "Bulgaria","1997",2740
 "Croatia","1997",57730
 "Cyprus","1997",23300
@@ -577,7 +577,7 @@
 "San Marino","1998",0
 "Spain","1998",14500
 "Albania","1998",1390
-"Bosnia/Herzegov","1998",27260
+"Bosnia/Herzegovina","1998",27260
 "Bulgaria","1998",2810
 "Croatia","1998",57650
 "Cyprus","1998",23200
@@ -832,7 +832,7 @@
 "San Marino","1999",0
 "Spain","1999",14350
 "Albania","1999",1440
-"Bosnia/Herzegov","1999",28560
+"Bosnia/Herzegovina","1999",28560
 "Bulgaria","1999",2950
 "Croatia","1999",58030
 "Cyprus","1999",23030
@@ -1087,7 +1087,7 @@
 "San Marino","2000",0
 "Spain","2000",14170
 "Albania","2000",1530
-"Bosnia/Herzegov","2000",28650
+"Bosnia/Herzegovina","2000",28650
 "Bulgaria","2000",3020
 "Croatia","2000",58210
 "Cyprus","2000",22810
@@ -1342,7 +1342,7 @@
 "San Marino","2001",0
 "Spain","2001",14110
 "Albania","2001",1620
-"Bosnia/Herzegov","2001",28780
+"Bosnia/Herzegovina","2001",28780
 "Bulgaria","2001",3110
 "Croatia","2001",58690
 "Cyprus","2001",22720
@@ -1597,7 +1597,7 @@
 "San Marino","2002",0
 "Spain","2002",14170
 "Albania","2002",1690
-"Bosnia/Herzegov","2002",31590
+"Bosnia/Herzegovina","2002",31590
 "Bulgaria","2002",3240
 "Croatia","2002",61930
 "Cyprus","2002",22680
@@ -1852,7 +1852,7 @@
 "San Marino","2003",0
 "Spain","2003",14220
 "Albania","2003",2070
-"Bosnia/Herzegov","2003",34000
+"Bosnia/Herzegovina","2003",34000
 "Bulgaria","2003",3300
 "Croatia","2003",64750
 "Cyprus","2003",22620
@@ -2107,7 +2107,7 @@
 "San Marino","2004",0
 "Spain","2004",14260
 "Albania","2004",2180
-"Bosnia/Herzegov","2004",36220
+"Bosnia/Herzegovina","2004",36220
 "Bulgaria","2004",3360
 "Croatia","2004",67160
 "Cyprus","2004",22560
@@ -2362,7 +2362,7 @@
 "San Marino","2005",0
 "Spain","2005",14320
 "Albania","2005",2270
-"Bosnia/Herzegov","2005",38400
+"Bosnia/Herzegovina","2005",38400
 "Bulgaria","2005",3440
 "Croatia","2005",69500
 "Cyprus","2005",22450
@@ -2617,7 +2617,7 @@
 "San Marino","2006",10
 "Spain","2006",14430
 "Albania","2006",2410
-"Bosnia/Herzegov","2006",40580
+"Bosnia/Herzegovina","2006",40580
 "Bulgaria","2006",3450
 "Croatia","2006",71810
 "Cyprus","2006",22350
@@ -2872,7 +2872,7 @@
 "San Marino","2007",10
 "Spain","2007",14550
 "Albania","2007",2500
-"Bosnia/Herzegov","2007",40490
+"Bosnia/Herzegovina","2007",40490
 "Bulgaria","2007",3530
 "Croatia","2007",71110
 "Cyprus","2007",22050
@@ -3127,7 +3127,7 @@
 "San Marino","2008",10
 "Spain","2008",14560
 "Albania","2008",2610
-"Bosnia/Herzegov","2008",40240
+"Bosnia/Herzegovina","2008",40240
 "Bulgaria","2008",3550
 "Croatia","2008",70240
 "Cyprus","2008",21810
@@ -3382,7 +3382,7 @@
 "San Marino","2009",0
 "Spain","2009",14680
 "Albania","2009",2760
-"Bosnia/Herzegov","2009",39930
+"Bosnia/Herzegovina","2009",39930
 "Bulgaria","2009",3600
 "Croatia","2009",69370
 "Cyprus","2009",21580
@@ -3637,7 +3637,7 @@
 "San Marino","2010",0
 "Spain","2010",14890
 "Albania","2010",2880
-"Bosnia/Herzegov","2010",39730
+"Bosnia/Herzegovina","2010",39730
 "Bulgaria","2010",3600
 "Croatia","2010",68490
 "Cyprus","2010",21350
@@ -3892,7 +3892,7 @@
 "San Marino","2011",10
 "Spain","2011",15320
 "Albania","2011",2950
-"Bosnia/Herzegov","2011",39440
+"Bosnia/Herzegovina","2011",39440
 "Bulgaria","2011",3620
 "Croatia","2011",67580
 "Cyprus","2011",21150
@@ -4147,7 +4147,7 @@
 "San Marino","2012",10
 "Spain","2012",16130
 "Albania","2012",3010
-"Bosnia/Herzegov","2012",38860
+"Bosnia/Herzegovina","2012",38860
 "Bulgaria","2012",3660
 "Croatia","2012",66130
 "Cyprus","2012",20910
@@ -4402,7 +4402,7 @@
 "San Marino","2013",10
 "Spain","2013",16980
 "Albania","2013",3130
-"Bosnia/Herzegov","2013",38190
+"Bosnia/Herzegovina","2013",38190
 "Bulgaria","2013",3780
 "Croatia","2013",64810
 "Cyprus","2013",20660
@@ -4657,7 +4657,7 @@
 "San Marino","2014",10
 "Spain","2014",17380
 "Albania","2014",3330
-"Bosnia/Herzegov","2014",37500
+"Bosnia/Herzegovina","2014",37500
 "Bulgaria","2014",3880
 "Croatia","2014",63300
 "Cyprus","2014",20410
@@ -4912,7 +4912,7 @@
 "San Marino","2015",10
 "Spain","2015",17730
 "Albania","2015",3460
-"Bosnia/Herzegov","2015",36750
+"Bosnia/Herzegovina","2015",36750
 "Bulgaria","2015",3930
 "Croatia","2015",61820
 "Cyprus","2015",20100
@@ -5167,7 +5167,7 @@
 "San Marino","2016",10
 "Spain","2016",18090
 "Albania","2016",3530
-"Bosnia/Herzegov","2016",36060
+"Bosnia/Herzegovina","2016",36060
 "Bulgaria","2016",4010
 "Croatia","2016",60170
 "Cyprus","2016",19690
@@ -5422,7 +5422,7 @@
 "San Marino","2017",10
 "Spain","2017",18420
 "Albania","2017",3690
-"Bosnia/Herzegov","2017",35360
+"Bosnia/Herzegovina","2017",35360
 "Bulgaria","2017",4050
 "Croatia","2017",58840
 "Cyprus","2017",19400
@@ -5677,7 +5677,7 @@
 "San Marino","2018",10
 "Spain","2018",18770
 "Albania","2018",3820
-"Bosnia/Herzegov","2018",34610
+"Bosnia/Herzegovina","2018",34610
 "Bulgaria","2018",4120
 "Croatia","2018",57380
 "Cyprus","2018",19070
@@ -5932,7 +5932,7 @@
 "San Marino","2019",10
 "Spain","2019",19040
 "Albania","2019",3910
-"Bosnia/Herzegov","2019",33820
+"Bosnia/Herzegovina","2019",33820
 "Bulgaria","2019",4120
 "Croatia","2019",55950
 "Cyprus","2019",18730
@@ -6187,7 +6187,7 @@
 "San Marino","2020",10
 "Spain","2020",19710
 "Albania","2020",4010
-"Bosnia/Herzegov","2020",33060
+"Bosnia/Herzegovina","2020",33060
 "Bulgaria","2020",4120
 "Croatia","2020",54650
 "Cyprus","2020",18460
@@ -6442,7 +6442,7 @@
 "San Marino","2021",10
 "Spain","2021",18820
 "Albania","2021",3950
-"Bosnia/Herzegov","2021",32100
+"Bosnia/Herzegovina","2021",32100
 "Bulgaria","2021",4050
 "Croatia","2021",53080
 "Cyprus","2021",18070
@@ -6697,7 +6697,7 @@
 "San Marino","2022",10
 "Spain","2022",18400
 "Albania","2022",3960
-"Bosnia/Herzegov","2022",31330
+"Bosnia/Herzegovina","2022",31330
 "Bulgaria","2022",3930
 "Croatia","2022",51390
 "Cyprus","2022",17680
@@ -6952,7 +6952,7 @@
 "San Marino","2023",10
 "Spain","2023",20370
 "Albania","2023",4100
-"Bosnia/Herzegov","2023",30770
+"Bosnia/Herzegovina","2023",30770
 "Bulgaria","2023",3930
 "Croatia","2023",49960
 "Cyprus","2023",17320
