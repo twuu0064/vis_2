@@ -99,7 +99,7 @@
 "Sp North Africa","1996",0
 "South Sudan","1996",0
 "Bahrain","1996",670
-"Occ Palestinian T","1996",3060
+"Palestinian Territories","1996",3060
 "Iran","1996",19260
 "Iraq","1996",16400
 "Israel","1996",7110
@@ -354,7 +354,7 @@
 "Sp North Africa","1997",0
 "South Sudan","1997",0
 "Bahrain","1997",730
-"Occ Palestinian T","1997",3000
+"Palestinian Territories","1997",3000
 "Iran","1997",19920
 "Iraq","1997",20280
 "Israel","1997",7090
@@ -609,7 +609,7 @@
 "Sp North Africa","1998",0
 "South Sudan","1998",0
 "Bahrain","1998",770
-"Occ Palestinian T","1998",2980
+"Palestinian Territories","1998",2980
 "Iran","1998",20440
 "Iraq","1998",22420
 "Israel","1998",7230
@@ -621,7 +621,7 @@
 "Saudi Arabia","1998",1380
 "Syria","1998",6950
 "Türkiye","1998",33380
-"Unit Arab Emir","1998",1150
+"United Arab Emirates","1998",1150
 "Yemen","1998",350
 "Myanmar","1998",12090
 "Cambodia","1998",25280
@@ -864,7 +864,7 @@
 "Sp North Africa","1999",0
 "South Sudan","1999",0
 "Bahrain","1999",790
-"Occ Palestinian T","1999",3010
+"Palestinian Territories","1999",3010
 "Iran","1999",20650
 "Iraq","1999",24390
 "Israel","1999",7330
@@ -876,7 +876,7 @@
 "Saudi Arabia","1999",1440
 "Syria","1999",7160
 "Türkiye","1999",33750
-"Unit Arab Emir","1999",1270
+"United Arab Emirates","1999",1270
 "Yemen","1999",380
 "Myanmar","1999",12100
 "Cambodia","1999",25210
@@ -1119,7 +1119,7 @@
 "Sp North Africa","2000",0
 "South Sudan","2000",0
 "Bahrain","2000",770
-"Occ Palestinian T","2000",3060
+"Palestinian Territories","2000",3060
 "Iran","2000",21360
 "Iraq","2000",26480
 "Israel","2000",7380
@@ -1131,7 +1131,7 @@
 "Saudi Arabia","2000",1530
 "Syria","2000",7320
 "Türkiye","2000",34060
-"Unit Arab Emir","2000",1390
+"United Arab Emirates","2000",1390
 "Yemen","2000",390
 "Myanmar","2000",12100
 "Cambodia","2000",24970
@@ -1374,7 +1374,7 @@
 "Sp North Africa","2001",0
 "South Sudan","2001",0
 "Bahrain","2001",760
-"Occ Palestinian T","2001",3120
+"Palestinian Territories","2001",3120
 "Iran","2001",22250
 "Iraq","2001",28480
 "Israel","2001",7510
@@ -1386,7 +1386,7 @@
 "Saudi Arabia","2001",1620
 "Syria","2001",7610
 "Türkiye","2001",34230
-"Unit Arab Emir","2001",1540
+"United Arab Emirates","2001",1540
 "Yemen","2001",400
 "Myanmar","2001",12190
 "Cambodia","2001",25100
@@ -1629,7 +1629,7 @@
 "Sp North Africa","2002",0
 "South Sudan","2002",0
 "Bahrain","2002",830
-"Occ Palestinian T","2002",3190
+"Palestinian Territories","2002",3190
 "Iran","2002",23100
 "Iraq","2002",30010
 "Israel","2002",7750
@@ -1641,7 +1641,7 @@
 "Saudi Arabia","2002",1890
 "Syria","2002",7790
 "Türkiye","2002",35030
-"Unit Arab Emir","2002",1780
+"United Arab Emirates","2002",1780
 "Yemen","2002",420
 "Myanmar","2002",12490
 "Cambodia","2002",25660
@@ -1884,7 +1884,7 @@
 "Sp North Africa","2003",0
 "South Sudan","2003",0
 "Bahrain","2003",910
-"Occ Palestinian T","2003",3210
+"Palestinian Territories","2003",3210
 "Iran","2003",24310
 "Iraq","2003",33860
 "Israel","2003",8100
@@ -1896,7 +1896,7 @@
 "Saudi Arabia","2003",2210
 "Syria","2003",8010
 "Türkiye","2003",36030
-"Unit Arab Emir","2003",2140
+"United Arab Emirates","2003",2140
 "Yemen","2003",470
 "Myanmar","2003",12700
 "Cambodia","2003",26430
@@ -2139,7 +2139,7 @@
 "Sp North Africa","2004",0
 "South Sudan","2004",0
 "Bahrain","2004",980
-"Occ Palestinian T","2004",3230
+"Palestinian Territories","2004",3230
 "Iran","2004",25370
 "Iraq","2004",35500
 "Israel","2004",8440
@@ -2151,7 +2151,7 @@
 "Saudi Arabia","2004",2540
 "Syria","2004",8130
 "Türkiye","2004",36800
-"Unit Arab Emir","2004",2420
+"United Arab Emirates","2004",2420
 "Yemen","2004",520
 "Myanmar","2004",12820
 "Cambodia","2004",26940
@@ -2394,7 +2394,7 @@
 "Sp North Africa","2005",0
 "South Sudan","2005",0
 "Bahrain","2005",1080
-"Occ Palestinian T","2005",3260
+"Palestinian Territories","2005",3260
 "Iran","2005",26720
 "Iraq","2005",37100
 "Israel","2005",8950
@@ -2406,7 +2406,7 @@
 "Saudi Arabia","2005",2960
 "Syria","2005",8260
 "Türkiye","2005",37460
-"Unit Arab Emir","2005",2800
+"United Arab Emirates","2005",2800
 "Yemen","2005",520
 "Myanmar","2005",13330
 "Cambodia","2005",27610
@@ -2649,7 +2649,7 @@
 "Sp North Africa","2006",0
 "South Sudan","2006",0
 "Bahrain","2006",1160
-"Occ Palestinian T","2006",3260
+"Palestinian Territories","2006",3260
 "Iran","2006",28110
 "Iraq","2006",39500
 "Israel","2006",9440
@@ -2661,7 +2661,7 @@
 "Saudi Arabia","2006",3550
 "Syria","2006",8440
 "Türkiye","2006",38060
-"Unit Arab Emir","2006",3320
+"United Arab Emirates","2006",3320
 "Yemen","2006",520
 "Myanmar","2006",14320
 "Cambodia","2006",28350
@@ -2904,7 +2904,7 @@
 "Sp North Africa","2007",0
 "South Sudan","2007",0
 "Bahrain","2007",1200
-"Occ Palestinian T","2007",3210
+"Palestinian Territories","2007",3210
 "Iran","2007",30210
 "Iraq","2007",42070
 "Israel","2007",9890
@@ -2916,7 +2916,7 @@
 "Saudi Arabia","2007",4730
 "Syria","2007",8650
 "Türkiye","2007",38340
-"Unit Arab Emir","2007",3750
+"United Arab Emirates","2007",3750
 "Yemen","2007",530
 "Myanmar","2007",16220
 "Cambodia","2007",29100
@@ -3159,7 +3159,7 @@
 "Sp North Africa","2008",0
 "South Sudan","2008",0
 "Bahrain","2008",1230
-"Occ Palestinian T","2008",3180
+"Palestinian Territories","2008",3180
 "Iran","2008",31790
 "Iraq","2008",44580
 "Israel","2008",10300
@@ -3171,7 +3171,7 @@
 "Saudi Arabia","2008",7970
 "Syria","2008",8840
 "Türkiye","2008",38670
-"Unit Arab Emir","2008",4280
+"United Arab Emirates","2008",4280
 "Yemen","2008",550
 "Myanmar","2008",18670
 "Cambodia","2008",29750
@@ -3414,7 +3414,7 @@
 "Sp North Africa","2009",0
 "South Sudan","2009",0
 "Bahrain","2009",1320
-"Occ Palestinian T","2009",3110
+"Palestinian Territories","2009",3110
 "Iran","2009",34020
 "Iraq","2009",49000
 "Israel","2009",10490
@@ -3426,7 +3426,7 @@
 "Saudi Arabia","2009",11230
 "Syria","2009",9130
 "Türkiye","2009",39320
-"Unit Arab Emir","2009",4810
+"United Arab Emirates","2009",4810
 "Yemen","2009",590
 "Myanmar","2009",21170
 "Cambodia","2009",30600
@@ -3669,7 +3669,7 @@
 "Sp North Africa","2010",0
 "South Sudan","2010",0
 "Bahrain","2010",1330
-"Occ Palestinian T","2010",3070
+"Palestinian Territories","2010",3070
 "Iran","2010",36480
 "Iraq","2010",51830
 "Israel","2010",10700
@@ -3681,7 +3681,7 @@
 "Saudi Arabia","2010",12600
 "Syria","2010",9330
 "Türkiye","2010",39810
-"Unit Arab Emir","2010",5240
+"United Arab Emirates","2010",5240
 "Yemen","2010",590
 "Myanmar","2010",23260
 "Cambodia","2010",31720
@@ -3924,7 +3924,7 @@
 "Sp North Africa","2011",0
 "South Sudan","2011",3900
 "Bahrain","2011",1440
-"Occ Palestinian T","2011",3020
+"Palestinian Territories","2011",3020
 "Iran","2011",39640
 "Iraq","2011",54980
 "Israel","2011",10840
@@ -3936,7 +3936,7 @@
 "Saudi Arabia","2011",12640
 "Syria","2011",9670
 "Türkiye","2011",39980
-"Unit Arab Emir","2011",5570
+"United Arab Emirates","2011",5570
 "Yemen","2011",610
 "Myanmar","2011",24430
 "Cambodia","2011",32510
@@ -4179,7 +4179,7 @@
 "Sp North Africa","2012",0
 "South Sudan","2012",4680
 "Bahrain","2012",1510
-"Occ Palestinian T","2012",3070
+"Palestinian Territories","2012",3070
 "Iran","2012",45490
 "Iraq","2012",57430
 "Israel","2012",10960
@@ -4191,7 +4191,7 @@
 "Saudi Arabia","2012",12760
 "Syria","2012",10110
 "Türkiye","2012",40150
-"Unit Arab Emir","2012",6180
+"United Arab Emirates","2012",6180
 "Yemen","2012",630
 "Myanmar","2012",26420
 "Cambodia","2012",33000
@@ -4434,7 +4434,7 @@
 "Sp North Africa","2013",0
 "South Sudan","2013",5530
 "Bahrain","2013",1590
-"Occ Palestinian T","2013",3110
+"Palestinian Territories","2013",3110
 "Iran","2013",52510
 "Iraq","2013",61390
 "Israel","2013",11100
@@ -4446,7 +4446,7 @@
 "Saudi Arabia","2013",12950
 "Syria","2013",10550
 "Türkiye","2013",40090
-"Unit Arab Emir","2013",6750
+"United Arab Emirates","2013",6750
 "Yemen","2013",650
 "Myanmar","2013",28660
 "Cambodia","2013",33320
@@ -4689,7 +4689,7 @@
 "Sp North Africa","2014",0
 "South Sudan","2014",6410
 "Bahrain","2014",1660
-"Occ Palestinian T","2014",3160
+"Palestinian Territories","2014",3160
 "Iran","2014",57080
 "Iraq","2014",66450
 "Israel","2014",11190
@@ -4701,7 +4701,7 @@
 "Saudi Arabia","2014",13890
 "Syria","2014",11540
 "Türkiye","2014",39930
-"Unit Arab Emir","2014",7290
+"United Arab Emirates","2014",7290
 "Yemen","2014",680
 "Myanmar","2014",30300
 "Cambodia","2014",33900
@@ -4944,7 +4944,7 @@
 "Sp North Africa","2015",0
 "South Sudan","2015",7480
 "Bahrain","2015",1730
-"Occ Palestinian T","2015",3190
+"Palestinian Territories","2015",3190
 "Iran","2015",61690
 "Iraq","2015",70870
 "Israel","2015",11240
@@ -4956,7 +4956,7 @@
 "Saudi Arabia","2015",14480
 "Syria","2015",14170
 "Türkiye","2015",39710
-"Unit Arab Emir","2015",8090
+"United Arab Emirates","2015",8090
 "Yemen","2015",710
 "Myanmar","2015",32160
 "Cambodia","2015",34420
@@ -5199,7 +5199,7 @@
 "Sp North Africa","2016",0
 "South Sudan","2016",8430
 "Bahrain","2016",1820
-"Occ Palestinian T","2016",3230
+"Palestinian Territories","2016",3230
 "Iran","2016",66150
 "Iraq","2016",74680
 "Israel","2016",11350
@@ -5211,7 +5211,7 @@
 "Saudi Arabia","2016",14480
 "Syria","2016",16320
 "Türkiye","2016",39920
-"Unit Arab Emir","2016",9170
+"United Arab Emirates","2016",9170
 "Yemen","2016",770
 "Myanmar","2016",34070
 "Cambodia","2016",35100
@@ -5454,7 +5454,7 @@
 "Sp North Africa","2017",0
 "South Sudan","2017",8810
 "Bahrain","2017",1910
-"Occ Palestinian T","2017",3230
+"Palestinian Territories","2017",3230
 "Iran","2017",68830
 "Iraq","2017",84620
 "Israel","2017",11720
@@ -5466,7 +5466,7 @@
 "Saudi Arabia","2017",14190
 "Syria","2017",24650
 "Türkiye","2017",40650
-"Unit Arab Emir","2017",10350
+"United Arab Emirates","2017",10350
 "Yemen","2017",830
 "Myanmar","2017",35680
 "Cambodia","2017",36580
@@ -5709,7 +5709,7 @@
 "Sp North Africa","2018",0
 "South Sudan","2018",8980
 "Bahrain","2018",1980
-"Occ Palestinian T","2018",3240
+"Palestinian Territories","2018",3240
 "Iran","2018",71150
 "Iraq","2018",88430
 "Israel","2018",11830
@@ -5721,7 +5721,7 @@
 "Saudi Arabia","2018",14160
 "Syria","2018",27960
 "Türkiye","2018",41190
-"Unit Arab Emir","2018",11600
+"United Arab Emirates","2018",11600
 "Yemen","2018",900
 "Myanmar","2018",37270
 "Cambodia","2018",38350
@@ -5964,7 +5964,7 @@
 "Sp North Africa","2019",0
 "South Sudan","2019",9030
 "Bahrain","2019",2070
-"Occ Palestinian T","2019",3240
+"Palestinian Territories","2019",3240
 "Iran","2019",74230
 "Iraq","2019",94610
 "Israel","2019",11880
@@ -5976,7 +5976,7 @@
 "Saudi Arabia","2019",15740
 "Syria","2019",30290
 "Türkiye","2019",41840
-"Unit Arab Emir","2019",12840
+"United Arab Emirates","2019",12840
 "Yemen","2019",980
 "Myanmar","2019",39770
 "Cambodia","2019",40030
@@ -6219,7 +6219,7 @@
 "Sp North Africa","2020",0
 "South Sudan","2020",9010
 "Bahrain","2020",2150
-"Occ Palestinian T","2020",3230
+"Palestinian Territories","2020",3230
 "Iran","2020",76870
 "Iraq","2020",101030
 "Israel","2020",12280
@@ -6231,7 +6231,7 @@
 "Saudi Arabia","2020",15320
 "Syria","2020",31350
 "Türkiye","2020",42550
-"Unit Arab Emir","2020",13660
+"United Arab Emirates","2020",13660
 "Yemen","2020",1020
 "Myanmar","2020",41530
 "Cambodia","2020",41500
@@ -6474,7 +6474,7 @@
 "Sp North Africa","2021",0
 "South Sudan","2021",8980
 "Bahrain","2021",2170
-"Occ Palestinian T","2021",3220
+"Palestinian Territories","2021",3220
 "Iran","2021",77070
 "Iraq","2021",101020
 "Israel","2021",12110
@@ -6486,7 +6486,7 @@
 "Saudi Arabia","2021",13100
 "Syria","2021",31630
 "Türkiye","2021",42150
-"Unit Arab Emir","2021",14160
+"United Arab Emirates","2021",14160
 "Yemen","2021",1020
 "Myanmar","2021",41520
 "Cambodia","2021",41430
@@ -6729,7 +6729,7 @@
 "Sp North Africa","2022",0
 "South Sudan","2022",9020
 "Bahrain","2022",2260
-"Occ Palestinian T","2022",3160
+"Palestinian Territories","2022",3160
 "Iran","2022",80330
 "Iraq","2022",104170
 "Israel","2022",11840
@@ -6741,7 +6741,7 @@
 "Saudi Arabia","2022",13310
 "Syria","2022",32680
 "Türkiye","2022",42140
-"Unit Arab Emir","2022",15110
+"United Arab Emirates","2022",15110
 "Yemen","2022",1080
 "Myanmar","2022",42820
 "Cambodia","2022",42670
@@ -6984,7 +6984,7 @@
 "Sp North Africa","2023",0
 "South Sudan","2023",9060
 "Bahrain","2023",2360
-"Occ Palestinian T","2023",3110
+"Palestinian Territories","2023",3110
 "Iran","2023",85830
 "Iraq","2023",106830
 "Israel","2023",12080
@@ -6996,7 +6996,7 @@
 "Saudi Arabia","2023",14630
 "Syria","2023",34590
 "Türkiye","2023",44400
-"Unit Arab Emir","2023",16500
+"United Arab Emirates","2023",16500
 "Yemen","2023",1200
 "Myanmar","2023",44770
 "Cambodia","2023",44210
