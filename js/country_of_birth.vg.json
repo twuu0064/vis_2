@@ -35,7 +35,7 @@
         "fields": ["Latitude", "Longitude"]
         }}
               ],
-            "mark": {"type": "circle", "tooltip": {"content": "data"}},
+            "mark": {"type": "circle"},
             "encoding": {
             "longitude": {"field": "Longitude", "type": "quantitative"},
             "latitude": {"field": "Latitude", "type": "quantitative"},
@@ -44,8 +44,9 @@
             "type": "quantitative",
             "title": "Number of Australians Born",
             "scale": {"type": "sqrt"}
-          
-            }
+            },
+            "tooltip":[{"field": "Country", "type": "ordinal"},
+            {"field": "AustraliansBorn", "type": "quantitative", "title": "Number of Australians Born", "format":","}]
             }
         }
             ]
