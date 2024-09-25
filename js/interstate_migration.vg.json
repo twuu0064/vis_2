@@ -2,8 +2,8 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "background": "#d2f6fa",
     "config": {"view": {"stroke": null}},
-    "width": 600, 
-    "height": 400,
+    "width": 500, 
+    "height": 300,
     "data": {"url": "https://raw.githubusercontent.com/twuu0064/vis_2/refs/heads/main/data/interstate_migration.csv"},
     "mark": "line",
     "params": [{
