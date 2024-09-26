@@ -1,29 +1,27 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "data": { "url": "data/population.json"},
+    "data": { "url": "https://raw.githubusercontent.com/twuu0064/vis_2/refs/heads/main/data/census_age.csv"},
     "transform": [
-      {"filter": "datum.year == 2000"},
-      {"calculate": "datum.sex == 2 ? 'Female' : 'Male'", "as": "gender"},
-      {"calculate": "datum.sex == 2 ? -datum.people : datum.people", "as": "signed_people"}
+      {"calculate": "datum.Sex == 'Female' ? -datum.Num_of_Australians : datum.Num_of_Australians", "as": "signed_people"}
     ],
-    "width": 300,
-    "height": 200,
+    "width": 800,
+    "height": 400,
     "mark": "bar",
     "encoding": {
       "y": {
-        "field": "age",
-        "axis": null, "sort": "descending"
+        "field": "Age_Group", "title": "Age Group", "sort": ["0-4 years", "5-9 years"]
       },
       "x": {
         "aggregate": "sum", "field": "signed_people",
-        "title": "population",
+        "title": "Australian Population",
         "axis": {"format": "s"}
       },
       "color": {
-        "field": "gender",
-        "scale": {"range": ["#675193", "#ca8861"]},
-        "legend": {"orient": "top", "title": null}
-      }
+        "field": "Sex",
+        "scale": {"range": ["#ca8861", "#675193"]},
+        "legend": {"orient": "top", "title": "Sex"}
+      },
+      "tooltip": [{"field":"Sex"}, {"field": "Num_of_Australians", "format": ",", "title": "Number of Australians"}]
     },
     "config": {
       "view": {"stroke": null},
