@@ -1,0 +1,28 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "background": "#d2f6fa",
+    "config": {"view": {"stroke": null}},
+    "width": 500, 
+    "height": 300,
+    "data": {"url": "https://raw.githubusercontent.com/twuu0064/vis_2/refs/heads/main/data/interstate_migration.csv"},
+    "mark": "line",
+    "params": [{
+      "name": "state",
+      "select": {"type": "point", "fields": ["State/Territory"]},
+      "bind": "legend"
+    }],
+    "encoding": {
+      "x": {
+        "timeUnit": "yearmonth", "field": "Date",
+        "axis": {"domain": false, "grid": false,"format": "%Y", "tickSize": 0}
+      },
+      "y": {"field": "Net Interstate Migration", "type": "quantitative"},
+      "color": {"field": "State/Territory", "type": "nominal",
+                        "scale": {"scheme": "set2"}},
+      "opacity": {
+        "condition": {"param": "state", "value": 1},
+        "value": 0.2
+      },
+      "tooltip": [{"field": "State/Territory"}, {"field": "Date", "type": "temporal"}, {"field": "Net Interstate Migration"}]
+    }
+  }
