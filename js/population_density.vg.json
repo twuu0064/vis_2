@@ -1,10 +1,10 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "background": "#d2f6fa",
+    "background": "#e3f1fe",
     "config": {"view": {"stroke": null}},
     "width": 800,
     "height": 600,
-    "projection": {"type": "equalEarth"},
+    "projection": {"type": "naturalEarth1"},
     "data": {
         "url": "https://raw.githubusercontent.com/twuu0064/vis_2/main/js/ausStates.json",
         "format": {"type": "topojson", "feature": "STE_2021_AUST_GDA2020"}

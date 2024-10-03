@@ -1,5 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "background": "#e3f1fe",
     "data": { "url": "https://raw.githubusercontent.com/twuu0064/vis_2/refs/heads/main/data/census_age.csv"},
     "transform": [
       {"calculate": "datum.Sex == 'Female' ? -datum.Num_of_Australians : datum.Num_of_Australians", "as": "signed_people"}
