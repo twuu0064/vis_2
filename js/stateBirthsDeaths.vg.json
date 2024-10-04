@@ -1,0 +1,61 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "https://raw.githubusercontent.com/twuu0064/vis_2/refs/heads/main/data/stateBirthsDeaths.csv"},
+    "background": "#e3f1fe",
+    "config": {"view": {"stroke": null}},
+    "params": [{
+        "name": "Series_Selection",
+        "bind": {
+            "input": "select",
+            "options": [
+                "Births",
+                "Deaths"
+            ],
+            "labels": [
+                "Births",
+                "Deaths"
+            ],
+            "name": "Series Selection (State):"
+        }
+    }],
+
+    "vconcat":[
+        {   
+            "title": "State Births and Deaths",
+            "width": 400,
+            "height": 200,
+            "transform": [{"filter": "datum.Series===Series_Selection"}, {"filter": "datum['State/Territory'] != 'Australia'"}],
+
+            "mark": "line",
+
+            "encoding": {
+            "x": {"field": "Year", "type": "temporal", "timeUnit":"year",  "scale":{"domain":{"param": "brush"}}},
+            "y": {"field": "Total", "type": "quantitative"},
+            "color": {"field": "State/Territory", "type": "nominal", "sort": {"field": "State/Territory", "order":"ascending"}, "scale": {"scheme": "set2"}},
+            "tooltip": [{"field":"Year", "type": "temporal", "timeUnit": "year", "title":"Year"},
+                            {"field": "State/Territory", "type": "nominal"}, {"field": "Total", "type": "quantitative", "format":","}]
+            }
+        },
+
+        {
+            "title": "Australia Births and Deaths",
+            "width": 400,
+            "height": 100,
+            "params": [
+                {"name": "brush", "select":{"type": "interval", "encodings": ["x"]}}
+            ],
+            "transform": [{"filter": "datum['State/Territory']==='Australia'"}],
+            "mark": "line",
+            "encoding": {
+              "x": {"field": "Year", "type": "temporal", "timeUnit":"year"},
+              "y": {"field": "Total", "type": "quantitative"},
+              "color": {"field":"Series", "type": "nominal", "scale": {"domain": ["Births", "Deaths"], "scheme":["#1b9e77", "#7570b3"]}},
+              "tooltip": [{"field":"Year", "type": "temporal", "timeUnit": "year", "title":"Year"},
+            { "field": "Total", "type": "quantitative", "format":"," }]
+            }
+
+        }
+    ],
+     "resolve": {"scale": {"color": "independent"}}
+  }
+  
