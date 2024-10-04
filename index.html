@@ -107,6 +107,7 @@
 
         <div class="pure-u-1-2">
             <h3> Births and Deaths by State </h3>
+            <div id ="state_birth_death"></div>
 
             <p> Description</p>
         </div>
@@ -179,6 +180,7 @@
     var vg_1 = "./js/country_of_birth.vg.json";
     var vg_2 = "./js/population_density.vg.json";
     var vg_3 = "./js/interstate_migration.vg.json";
+    var vg_4 = "./js/stateBirthsDeaths.vg.json";
     var vg_5 = "./js/gender_age.vg.json";
     var vg_6 = "./js/futurePopulation.vg.json"
 
@@ -187,6 +189,10 @@
         }).catch(console.error);
 
     vegaEmbed("#pop_density", vg_2).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view 
+        }).catch(console.error);
+
+    vegaEmbed("#state_birth_death", vg_4).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view 
         }).catch(console.error);
 

@@ -22,8 +22,8 @@
     "vconcat":[
         {   
             "title": "State Births and Deaths",
-            "width": 400,
-            "height": 200,
+            "width": 500,
+            "height": 300,
             "transform": [{"filter": "datum.Series===Series_Selection"}, {"filter": "datum['State/Territory'] != 'Australia'"}],
 
             "mark": "line",
@@ -39,7 +39,7 @@
 
         {
             "title": "Australia Births and Deaths",
-            "width": 400,
+            "width": 500,
             "height": 100,
             "params": [
                 {"name": "brush", "select":{"type": "interval", "encodings": ["x"]}}

@@ -3,7 +3,7 @@
     "background": "#e3f1fe",
     "config": {"view": {"stroke": null}},
     "width": 500, 
-    "height": 300,
+    "height": 400,
     "data": {"url": "https://raw.githubusercontent.com/twuu0064/vis_2/refs/heads/main/data/interstate_migration.csv"},
     "mark": "line",
     "params": [{
