@@ -23,7 +23,7 @@
         {   
             "title": "State Births and Deaths",
             "width": 500,
-            "height": 300,
+            "height": 400,
             "transform": [{"filter": "datum.Series===Series_Selection"}, {"filter": "datum['State/Territory'] != 'Australia'"}],
 
             "mark": "line",
