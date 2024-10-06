@@ -1,6 +1,6 @@
 "Country","Year","AustraliansBorn"
 "Australia","1996",13984720
-"Norfolk Island(d)","1996",190
+"Norfolk Island","1996",190
 "Aust E T, nec","1996",10
 "New Zealand","1996",312240
 "New Caledonia","1996",1190
@@ -255,7 +255,7 @@
 "Zimbabwe","1996",10320
 "","1996",NA
 "Australia","1997",14128840
-"Norfolk Island(d)","1997",230
+"Norfolk Island","1997",230
 "Aust E T, nec","1997",10
 "New Zealand","1997",320660
 "New Caledonia","1997",1270
@@ -510,7 +510,7 @@
 "Zimbabwe","1997",10620
 "","1997",NA
 "Australia","1998",14297370
-"Norfolk Island(d)","1998",220
+"Norfolk Island","1998",220
 "Aust E T, nec","1998",10
 "New Zealand","1998",328280
 "New Caledonia","1998",1270
@@ -765,7 +765,7 @@
 "Zimbabwe","1998",10930
 "","1998",NA
 "Australia","1999",14466970
-"Norfolk Island(d)","1999",230
+"Norfolk Island","1999",230
 "Aust E T, nec","1999",10
 "New Zealand","1999",345660
 "New Caledonia","1999",1250
@@ -1020,7 +1020,7 @@
 "Zimbabwe","1999",11350
 "","1999",NA
 "Australia","2000",14643100
-"Norfolk Island(d)","2000",230
+"Norfolk Island","2000",230
 "Aust E T, nec","2000",10
 "New Zealand","2000",365060
 "New Caledonia","2000",1210
@@ -1275,7 +1275,7 @@
 "Zimbabwe","2000",12110
 "","2000",NA
 "Australia","2001",14822350
-"Norfolk Island(d)","2001",190
+"Norfolk Island","2001",190
 "Aust E T, nec","2001",10
 "New Zealand","2001",389600
 "New Caledonia","2001",1160
@@ -1530,7 +1530,7 @@
 "Zimbabwe","2001",13210
 "","2001",NA
 "Australia","2002",14944520
-"Norfolk Island(d)","2002",180
+"Norfolk Island","2002",180
 "Aust E T, nec","2002",0
 "New Zealand","2002",402380
 "New Caledonia","2002",1240
@@ -1785,7 +1785,7 @@
 "Zimbabwe","2002",15130
 "","2002",NA
 "Australia","2003",15065240
-"Norfolk Island(d)","2003",170
+"Norfolk Island","2003",170
 "Aust E T, nec","2003",0
 "New Zealand","2003",409500
 "New Caledonia","2003",1260
@@ -2040,7 +2040,7 @@
 "Zimbabwe","2003",17220
 "","2003",NA
 "Australia","2004",15179770
-"Norfolk Island(d)","2004",180
+"Norfolk Island","2004",180
 "Aust E T, nec","2004",0
 "New Zealand","2004",413980
 "New Caledonia","2004",1260
@@ -2295,7 +2295,7 @@
 "Zimbabwe","2004",19620
 "","2004",NA
 "Australia","2005",15299750
-"Norfolk Island(d)","2005",180
+"Norfolk Island","2005",180
 "Aust E T, nec","2005",0
 "New Zealand","2005",423550
 "New Caledonia","2005",1260
@@ -2550,7 +2550,7 @@
 "Zimbabwe","2005",21680
 "","2005",NA
 "Australia","2006",15419340
-"Norfolk Island(d)","2006",190
+"Norfolk Island","2006",190
 "Aust E T, nec","2006",0
 "New Zealand","2006",437890
 "New Caledonia","2006",1240
@@ -2805,7 +2805,7 @@
 "Zimbabwe","2006",23700
 "","2006",NA
 "Australia","2007",15594370
-"Norfolk Island(d)","2007",220
+"Norfolk Island","2007",220
 "Aust E T, nec","2007",0
 "New Zealand","2007",458020
 "New Caledonia","2007",1270
@@ -3060,7 +3060,7 @@
 "Zimbabwe","2007",26270
 "","2007",NA
 "Australia","2008",15771300
-"Norfolk Island(d)","2008",230
+"Norfolk Island","2008",230
 "Aust E T, nec","2008",0
 "New Zealand","2008",483660
 "New Caledonia","2008",1320
@@ -3315,7 +3315,7 @@
 "Zimbabwe","2008",29600
 "","2008",NA
 "Australia","2009",15961770
-"Norfolk Island(d)","2009",250
+"Norfolk Island","2009",250
 "Aust E T, nec","2009",0
 "New Zealand","2009",504440
 "New Caledonia","2009",1380
@@ -3570,7 +3570,7 @@
 "Zimbabwe","2009",32450
 "","2009",NA
 "Australia","2010",16150390
-"Norfolk Island(d)","2010",260
+"Norfolk Island","2010",260
 "Aust E T, nec","2010",0
 "New Zealand","2010",517780
 "New Caledonia","2010",1460
@@ -3825,7 +3825,7 @@
 "Zimbabwe","2010",33710
 "","2010",NA
 "Australia","2011",16321840
-"Norfolk Island(d)","2011",270
+"Norfolk Island","2011",270
 "Aust E T, nec","2011",0
 "New Zealand","2011",543950
 "New Caledonia","2011",1450
@@ -4080,7 +4080,7 @@
 "Zimbabwe","2011",34610
 "","2011",NA
 "Australia","2012",16519460
-"Norfolk Island(d)","2012",300
+"Norfolk Island","2012",300
 "Aust E T, nec","2012",0
 "New Zealand","2012",569630
 "New Caledonia","2012",1470
@@ -4335,7 +4335,7 @@
 "Zimbabwe","2012",36300
 "","2012",NA
 "Australia","2013",16719390
-"Norfolk Island(d)","2013",330
+"Norfolk Island","2013",330
 "Aust E T, nec","2013",0
 "New Zealand","2013",585390
 "New Caledonia","2013",1490
@@ -4590,7 +4590,7 @@
 "Zimbabwe","2013",37770
 "","2013",NA
 "Australia","2014",16905450
-"Norfolk Island(d)","2014",330
+"Norfolk Island","2014",330
 "Aust E T, nec","2014",0
 "New Zealand","2014",583660
 "New Caledonia","2014",1500
@@ -4845,7 +4845,7 @@
 "Zimbabwe","2014",39020
 "","2014",NA
 "Australia","2015",17086270
-"Norfolk Island(d)","2015",330
+"Norfolk Island","2015",330
 "Aust E T, nec","2015",0
 "New Zealand","2015",575430
 "New Caledonia","2015",1560
@@ -5100,7 +5100,7 @@
 "Zimbabwe","2015",40170
 "","2015",NA
 "Australia","2016",17278800
-"Norfolk Island(d)","2016",770
+"Norfolk Island","2016",770
 "Aust E T, nec","2016",0
 "New Zealand","2016",568170
 "New Caledonia","2016",1590
@@ -5355,7 +5355,7 @@
 "Zimbabwe","2016",41570
 "","2016",NA
 "Australia","2017",17449760
-"Norfolk Island(d)","2017",800
+"Norfolk Island","2017",800
 "Aust E T, nec","2017",0
 "New Zealand","2017",572250
 "New Caledonia","2017",1620
@@ -5610,7 +5610,7 @@
 "Zimbabwe","2017",42350
 "","2017",NA
 "Australia","2018",17615980
-"Norfolk Island(d)","2018",760
+"Norfolk Island","2018",760
 "Aust E T, nec","2018",0
 "New Zealand","2018",577490
 "New Caledonia","2018",1570
@@ -5865,7 +5865,7 @@
 "Zimbabwe","2018",42840
 "","2018",NA
 "Australia","2019",17784440
-"Norfolk Island(d)","2019",730
+"Norfolk Island","2019",730
 "Aust E T, nec","2019",0
 "New Zealand","2019",582850
 "New Caledonia","2019",1550
@@ -6120,7 +6120,7 @@
 "Zimbabwe","2019",43570
 "","2019",NA
 "Australia","2020",17976110
-"Norfolk Island(d)","2020",690
+"Norfolk Island","2020",690
 "Aust E T, nec","2020",0
 "New Zealand","2020",584490
 "New Caledonia","2020",1540
@@ -6375,7 +6375,7 @@
 "Zimbabwe","2020",44270
 "","2020",NA
 "Australia","2021",18158900
-"Norfolk Island(d)","2021",650
+"Norfolk Island","2021",650
 "Aust E T, nec","2021",0
 "New Zealand","2021",584010
 "New Caledonia","2021",1520
@@ -6630,7 +6630,7 @@
 "Zimbabwe","2021",44070
 "","2021",NA
 "Australia","2022",18332040
-"Norfolk Island(d)","2022",640
+"Norfolk Island","2022",640
 "Aust E T, nec","2022",0
 "New Zealand","2022",586050
 "New Caledonia","2022",1540
@@ -6885,7 +6885,7 @@
 "Zimbabwe","2022",45040
 "","2022",NA
 "Australia","2023",18472600
-"Norfolk Island(d)","2023",630
+"Norfolk Island","2023",630
 "Aust E T, nec","2023",0
 "New Zealand","2023",598090
 "New Caledonia","2023",1550
