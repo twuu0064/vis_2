@@ -16,7 +16,7 @@
 "Palau","1996",10
 "Cook Islands","1996",3220
 "Fiji","1996",40930
-"French Poly","1996",270
+"French Polynesia","1996",270
 "Niue","1996",340
 "Samoa","1996",10660
 "Samoa American","1996",90
@@ -271,7 +271,7 @@
 "Palau","1997",10
 "Cook Islands","1997",3710
 "Fiji","1997",42910
-"French Poly","1997",290
+"French Polynesia","1997",290
 "Niue","1997",350
 "Samoa","1997",11390
 "Samoa American","1997",100
@@ -526,7 +526,7 @@
 "Palau","1998",10
 "Cook Islands","1998",3980
 "Fiji","1998",43460
-"French Poly","1998",310
+"French Polynesia","1998",310
 "Niue","1998",360
 "Samoa","1998",11770
 "Samoa American","1998",110
@@ -781,7 +781,7 @@
 "Palau","1999",10
 "Cook Islands","1999",4320
 "Fiji","1999",44810
-"French Poly","1999",310
+"French Polynesia","1999",310
 "Niue","1999",410
 "Samoa","1999",12620
 "Samoa American","1999",120
@@ -1036,7 +1036,7 @@
 "Palau","2000",20
 "Cook Islands","2000",4600
 "Fiji","2000",46700
-"French Poly","2000",350
+"French Polynesia","2000",350
 "Niue","2000",460
 "Samoa","2000",13080
 "Samoa American","2000",140
@@ -1291,7 +1291,7 @@
 "Palau","2001",20
 "Cook Islands","2001",4960
 "Fiji","2001",49070
-"French Poly","2001",360
+"French Polynesia","2001",360
 "Niue","2001",470
 "Samoa","2001",13960
 "Samoa American","2001",140
@@ -1546,7 +1546,7 @@
 "Palau","2002",10
 "Cook Islands","2002",5150
 "Fiji","2002",50720
-"French Poly","2002",380
+"French Polynesia","2002",380
 "Niue","2002",500
 "Samoa","2002",14910
 "Samoa American","2002",170
@@ -1801,7 +1801,7 @@
 "Palau","2003",20
 "Cook Islands","2003",5250
 "Fiji","2003",52360
-"French Poly","2003",400
+"French Polynesia","2003",400
 "Niue","2003",530
 "Samoa","2003",15410
 "Samoa American","2003",180
@@ -2056,7 +2056,7 @@
 "Palau","2004",10
 "Cook Islands","2004",5360
 "Fiji","2004",53460
-"French Poly","2004",400
+"French Polynesia","2004",400
 "Niue","2004",560
 "Samoa","2004",15960
 "Samoa American","2004",190
@@ -2311,7 +2311,7 @@
 "Palau","2005",10
 "Cook Islands","2005",5460
 "Fiji","2005",54770
-"French Poly","2005",390
+"French Polynesia","2005",390
 "Niue","2005",580
 "Samoa","2005",16620
 "Samoa American","2005",210
@@ -2566,7 +2566,7 @@
 "Palau","2006",10
 "Cook Islands","2006",5610
 "Fiji","2006",56350
-"French Poly","2006",390
+"French Polynesia","2006",390
 "Niue","2006",590
 "Samoa","2006",17170
 "Samoa American","2006",200
@@ -2821,7 +2821,7 @@
 "Palau","2007",10
 "Cook Islands","2007",5820
 "Fiji","2007",57990
-"French Poly","2007",420
+"French Polynesia","2007",420
 "Niue","2007",620
 "Samoa","2007",17800
 "Samoa American","2007",210
@@ -3076,7 +3076,7 @@
 "Palau","2008",10
 "Cook Islands","2008",6090
 "Fiji","2008",60100
-"French Poly","2008",440
+"French Polynesia","2008",440
 "Niue","2008",680
 "Samoa","2008",18570
 "Samoa American","2008",220
@@ -3331,7 +3331,7 @@
 "Palau","2009",10
 "Cook Islands","2009",6410
 "Fiji","2009",62190
-"French Poly","2009",440
+"French Polynesia","2009",440
 "Niue","2009",720
 "Samoa","2009",19640
 "Samoa American","2009",240
@@ -3586,7 +3586,7 @@
 "Palau","2010",10
 "Cook Islands","2010",6630
 "Fiji","2010",63960
-"French Poly","2010",470
+"French Polynesia","2010",470
 "Niue","2010",770
 "Samoa","2010",20440
 "Samoa American","2010",260
@@ -3841,7 +3841,7 @@
 "Palau","2011",20
 "Cook Islands","2011",6930
 "Fiji","2011",65470
-"French Poly","2011",480
+"French Polynesia","2011",480
 "Niue","2011",810
 "Samoa","2011",21820
 "Samoa American","2011",290
@@ -4096,7 +4096,7 @@
 "Palau","2012",20
 "Cook Islands","2012",7310
 "Fiji","2012",67480
-"French Poly","2012",500
+"French Polynesia","2012",500
 "Niue","2012",850
 "Samoa","2012",23400
 "Samoa American","2012",320
@@ -4351,7 +4351,7 @@
 "Palau","2013",30
 "Cook Islands","2013",7700
 "Fiji","2013",69420
-"French Poly","2013",540
+"French Polynesia","2013",540
 "Niue","2013",910
 "Samoa","2013",25560
 "Samoa American","2013",380
@@ -4606,7 +4606,7 @@
 "Palau","2014",20
 "Cook Islands","2014",7930
 "Fiji","2014",71210
-"French Poly","2014",540
+"French Polynesia","2014",540
 "Niue","2014",930
 "Samoa","2014",26860
 "Samoa American","2014",400
@@ -4861,7 +4861,7 @@
 "Palau","2015",30
 "Cook Islands","2015",8040
 "Fiji","2015",72600
-"French Poly","2015",530
+"French Polynesia","2015",530
 "Niue","2015",940
 "Samoa","2015",27780
 "Samoa American","2015",410
@@ -5116,7 +5116,7 @@
 "Palau","2016",30
 "Cook Islands","2016",8140
 "Fiji","2016",73970
-"French Poly","2016",540
+"French Polynesia","2016",540
 "Niue","2016",970
 "Samoa","2016",28820
 "Samoa American","2016",430
@@ -5371,7 +5371,7 @@
 "Palau","2017",30
 "Cook Islands","2017",8100
 "Fiji","2017",74340
-"French Poly","2017",550
+"French Polynesia","2017",550
 "Niue","2017",980
 "Samoa","2017",30430
 "Samoa American","2017",450
@@ -5626,7 +5626,7 @@
 "Palau","2018",30
 "Cook Islands","2018",8050
 "Fiji","2018",74600
-"French Poly","2018",560
+"French Polynesia","2018",560
 "Niue","2018",980
 "Samoa","2018",31630
 "Samoa American","2018",460
@@ -5881,7 +5881,7 @@
 "Palau","2019",20
 "Cook Islands","2019",8040
 "Fiji","2019",75720
-"French Poly","2019",550
+"French Polynesia","2019",550
 "Niue","2019",980
 "Samoa","2019",32670
 "Samoa American","2019",480
@@ -6136,7 +6136,7 @@
 "Palau","2020",30
 "Cook Islands","2020",7990
 "Fiji","2020",76730
-"French Poly","2020",550
+"French Polynesia","2020",550
 "Niue","2020",980
 "Samoa","2020",33770
 "Samoa American","2020",490
@@ -6391,7 +6391,7 @@
 "Palau","2021",20
 "Cook Islands","2021",7920
 "Fiji","2021",76370
-"French Poly","2021",520
+"French Polynesia","2021",520
 "Niue","2021",980
 "Samoa","2021",34500
 "Samoa American","2021",480
@@ -6646,7 +6646,7 @@
 "Palau","2022",20
 "Cook Islands","2022",7860
 "Fiji","2022",79300
-"French Poly","2022",520
+"French Polynesia","2022",520
 "Niue","2022",970
 "Samoa","2022",36860
 "Samoa American","2022",480
@@ -6901,7 +6901,7 @@
 "Palau","2023",30
 "Cook Islands","2023",7890
 "Fiji","2023",86830
-"French Poly","2023",530
+"French Polynesia","2023",530
 "Niue","2023",980
 "Samoa","2023",37860
 "Samoa American","2023",500
