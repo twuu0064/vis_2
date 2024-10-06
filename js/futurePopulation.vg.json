@@ -2,56 +2,70 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "background": "#e3f1fe",
     "config": {"view": {"stroke": null}},
-    "width": 1000, 
-    "height": 500,
-    "layer":[
+    "data": {"url": "https://raw.githubusercontent.com/twuu0064/vis_2/refs/heads/main/data/ausPop.csv"},
+    "vconcat": [
         {
-            "data": {"url": "https://raw.githubusercontent.com/twuu0064/vis_2/refs/heads/main/data/totalPopulation.csv"},
-            "mark": "line",
-            "encoding": {
-                "x": {
-                    "timeUnit": "year", "field": "Year", "title": "Year",
-                    "axis": {"domain": false, "grid": false,"format": "%Y", "tickSize": 0}
-                },
-                "y": {"field": "Population", "type": "quantitative",
-                    "scale": {"zero": false}
-                    },
-                "tooltip": [{"field":"Year", "type": "temporal", "timeUnit": "year", "title":"Year"},{"field":"Population", "type": "quantitative", "format":","}]
-        }
+          "width": 800, 
+          "height": 400,
+          "selection": {
+          "scenario_highlight": {
+          "type": "multi",
+          "fields": ["Scenario"],
+          "bind": "legend"
+          }
+          },
+          "mark": {"type":"line"},
+          "encoding": {
+              "x": {
+                  "timeUnit": "year", "field": "Year", "title": "Year",
+                  "axis": {"domain": false, "grid": false,"format": "%Y", "tickSize": 0, "title":null},
+                  "scale": {"domain": {"param": "brush"}}
+              },
+              "y": {"field": "Population", "type": "quantitative",
+                  "scale": {"zero": false}
+                  },
+              "tooltip": [{"field":"Year", "type": "temporal", "timeUnit": "year", "title":"Year"},{"field":"Population", "type": "quantitative", "format":","}],
+              "color": {"field": "Scenario", "type": "nominal", "scale": {
+                              "domain": ["Actual", "High", "Medium", "Low"],
+                              "range": ["#00008B", "#0f660b", "#e3830f", "#d02222"]
+                          }},
+            "strokeDash": {"field": "predicted", "type": "nominal", "legend":null},
+            "opacity": {
+                      "condition": {"selection": "scenario_highlight", "value": 0.6},
+                      "value": 0.2
+                      }
+      }
+      },
+      {
+        "width": 800,
+        "height": 150,
+        "mark": {"type":"line"},
+        "params": [
+            {"name": "brush", "select": {"type": "interval",
+            "encodings": ["x"]}}
+            ],
+          "encoding": {
+              "x": {
+                  "timeUnit": "year", "field": "Year", "title": "Year",
+                  "axis": {"domain": false, "grid": false,"format": "%Y", "tickSize": 0}
+              },
+              "y": {"field": "Population", "type": "quantitative",
+                  "scale": {"zero": false}
+                  },
+              "tooltip": [{"field":"Year", "type": "temporal", "timeUnit": "year", "title":"Year"},{"field":"Population", "type": "quantitative", "format":","}],
+              "color": {"field": "Scenario", "type": "nominal", "scale": {
+                              "domain": ["Actual", "High", "Medium", "Low"],
+                              "range": ["#00008B", "#0f660b", "#e3830f", "#d02222"]
+                          }},
+            "strokeDash": {"field": "predicted", "type": "nominal", "legend":null},
+            "opacity": {
+                      "condition": {"selection": "scenario_highlight", "value": 0.6},
+                      "value": 0.2
+                      }
+      }
+      }
 
-        },
-        {
-            "data": {"url": "https://raw.githubusercontent.com/twuu0064/vis_2/refs/heads/main/data/future.csv"},
-            "selection": {
-            "scenario_highlight": {
-            "type": "multi",
-            "fields": ["Scenario"],
-            "bind": "legend"
-            }
-            },
-            "mark": {"type" :"line", "strokeDash":[3,3]},
-            "encoding": {
-                "x": {
-                    "timeUnit": "year", "field":"Year", "title": "Year",
-                    "axis": {"domain": false, "grid": false,"format": "%Y", "tickSize": 0}
-                },
-                "y": {
-                    "field": "Population", "type": "quantitative",
-                    "scale": {"zero": false}
-                },
-                "color": {
-                    "field": "Scenario", "type": "ordinal",
-                    "scale": {
-                        "domain": ["High", "Medium", "Low"],
-                        "range": ["#0f660b", "#e3830f", "#d02222"]
-                    }
-                },
-                "tooltip": [{"field":"Year", "type": "temporal", "timeUnit": "year", "title":"Year"},{"field":"Population", "type": "quantitative", "format":",", "title": "Population (Predicted)"}],
-                "opacity": {
-                "condition": {"selection": "scenario_highlight", "value": 0.6},
-                "value": 0.2
-                }
-            }
-        }
+        
     ]
 }
+   

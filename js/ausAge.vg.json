@@ -1,0 +1,15 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "background": "#e3f1fe",
+    "config": {"view": {"stroke": null}},
+    "width": 400,
+    "height": 250,
+    "data": {"url": "https://raw.githubusercontent.com/twuu0064/vis_2/refs/heads/main/data/census_age.csv"},
+    "mark": "bar",
+    "encoding": {
+        "x": {"field": "Age_Group", "type": "ordinal", "sort":"y", "title": "Age Group"},
+        "y": {"field": "Num_of_Australians", "type": "quantitative", "title": "Number of Australians", "axis":{"grid": false}},
+        "tooltip": [{"field":"Age_Group", "type": "ordinal", "title":"Age Group" },{"field": "Num_of_Australians", "title": "Number of Australians", "format": ","}],
+        "color": {"value" :"#00008B"}
+    }
+}

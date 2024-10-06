@@ -1,6 +1,4 @@
-Reformat text (10 words per line)
 Add another chart with census data?
-Add something else for future?
-Add meta data and source section
-Add more granular map for where Australians live and add graticule
-Add graticule to world map, and hconcat with bar chart of top 10 countries
+Add graticules
+Add more granular map for where Australians live 
+Hconcat with bar chart of top 10 countries

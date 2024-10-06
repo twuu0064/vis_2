@@ -132,7 +132,7 @@
 
         <div class="pure-u-1-2">
             <h3> Net Interstate Migration by State</h3>
-            <p> <span class = "subtext">Use the legend to highlight a state</span>  </p>
+            <p> <span class = "subtext">Use the legend to highlight a state!</span>  </p>
             <div id="int_mig"></div>
             <p>
                 Net interstate migration is the departures from a particular state deducted from the total arrivals into that state.
@@ -182,7 +182,7 @@
 
     <div class="pure-g">
         <div class="pure-u-2-3">
-            <h3> Age and Sex Distribtuion of Australians (2021 Census)</h3>
+            <h3> Age and Sex Distribution of Australians (2021 Census)</h3>
             <!-- Insert Chart here -->
              <div id= "census_age"></div>
         </div>
@@ -197,6 +197,9 @@
                 In terms of male and female distribution between the age groups, up to the 25-29 year age group, there are more males than females. For all other 
                 age groups, there are more females than males. This perhaps tells us that females may live longer than males based on this graph.
             </p>
+
+            <h3> Age Distribution of Australians (2021 Census) </h3>
+            <div id = "census_age_2"></div>
         </div>
     </div>
 
@@ -209,12 +212,65 @@
     </div>
 
     <div class="pure-g">
-        <div class="pure-u-1-1">
+        <div class="pure-u-2-3">
             <h3> Projected Australian Population</h3>
             <!-- Insert Chart here -->
             <div id="future_aus"></div>
-             <p> Please note that the above graph's y axis begins at 19,000 and NOT 0. </p>
+            <p> <span class = "subtext">Please note that the above graph's x-axis does NOT begin at 0. Use the legend to highlight a scenario!</span>  </p>
+       
         </div>
+
+        <div class = "pure-u-1-3">
+            <p>
+                Australia population has gradually grown since the beginning of the 2000s. The only exception to this was between 
+                2020 and 2021. As mentioned previously, this was most likely due to COVID-19. Nevertheless, following this dip, in 2022 and 2023 Australia's population 
+                continued to grow at a similar rate as in previous years.
+            </p>
+
+            <p>
+                As shown, there are three scenarios for Australia's projected future population. The high scenario assumes that Australia's population will 
+                continue to grow at a similar rate as it has in the past 20 years with Australia's population in 2071 predicted to be 45.89 (increase of just over 19 million) million people.
+                In the medium scenario the population initally grows at the same rate as in the past 20 years but then gradually slows. In this scenario,
+                Australia's population is predicted to be 39.19 million people (increase of under 13 million from 2023). In the low scenario Australia's population growth decreases gradually over time and looks to plateau. In 2071, Australia's 
+                population is predicted to be 34.34 million (increase of under 8 million from 2023)
+            </p>
+
+            <p>
+                How much Australia's population grows will largely depend on migration rates particularly with conflicts occurring around the world. Furthermore,
+                it will also depend on any health events such as COVID-19 as well as cultural changes regarding families. Over time, people have had less children,
+                particularly in developed countries such as Australia, as such, it will be interesting to see whether fertility rates continue to decrease or will rise again in future.
+            </p>
+
+            <h4> Metadata </h4> 
+            <p> <span class = "subtext">Acknowledgements to the Australian Bureau of Statistics, Paul Mooney and Natural Earth for the data.
+
+                <br> A visualisation created by Tanisha Wu
+                <br> Date: XX/10/2024
+            </span>  </p>
+            <p> 
+                <span class = "subtext">
+                    Sources:
+                <br> 
+                <a href ="https://www.abs.gov.au/statistics/people/population/national-state-and-territory-population/dec-2023#data-downloads-data-cubes">ABS - National, State and Territory Population </a> 
+                <br> 
+                <a href ="https://www.abs.gov.au/statistics/people/population/australias-population-country-birth/jun-2023#data-downloads"> ABS - Australia's Population: Country of Birth</a> 
+                <br> 
+                <a href="https://www.abs.gov.au/statistics/people/population/regional-population/2022-23#data-downloads"> ABS - Regional Population</a>
+                <br> 
+                <a href ="https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/access-and-downloads/digital-boundary-files"> ABS - Australia Geographical Boundaries</a>
+                <br> 
+                <a href = "https://www.naturalearthdata.com/downloads/110m-cultural-vectors/"> Natural Earth - Cultural Vectors</a>
+                <br> 
+                <a href = "https://www.naturalearthdata.com/downloads/110m-physical-vectors/"> Natural Earth - Physical Vectors </a>
+                <br> 
+                <a href ="https://www.kaggle.com/datasets/paultimothymooney/latitude-and-longitude-for-every-country-and-state"> Paul Mooney (Kaggle) - Country Latitude and Longitude </a>
+        
+
+                </span>
+            </p>
+
+        </div>
+    </div>
 
 
     <!-- INSERT METADATA AND SOURCES-->
@@ -226,7 +282,8 @@
     var vg_3 = "./js/interstate_migration.vg.json";
     var vg_4 = "./js/stateBirthsDeaths.vg.json";
     var vg_5 = "./js/gender_age.vg.json";
-    var vg_6 = "./js/futurePopulation.vg.json"
+    var vg_6 = "./js/futurePopulation.vg.json";
+    var vg_7 = "./js/ausAge.vg.json"
 
     vegaEmbed("#country_birth", vg_1).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view 
@@ -250,6 +307,10 @@
         }).catch(console.error);
 
     vegaEmbed("#future_aus", vg_6).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view 
+        }).catch(console.error);
+    
+    vegaEmbed("#census_age_2", vg_7).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view 
         }).catch(console.error);
     </script>
