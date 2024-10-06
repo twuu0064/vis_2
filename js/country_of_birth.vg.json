@@ -1,58 +1,91 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "background": "#e3f1fe",
-    "config": {"view": {"stroke": null}},
-    "width": 800,
-    "height": 450,
-    "projection": {"type": "equalEarth"},
-    "params": [{
-              "name": "YearSelect",
-              "value": 1996,
-              "bind": {
-              "input": "range",
-              "min": 1996,
-              "max": 2023,
-              "step": 1,
-              "name": "Select a year: "
-              }
-              }],
-    "layer": [
-        {
-        "data": {
-        "url":"https://raw.githubusercontent.com/twuu0064/vis_2/refs/heads/main/js/worldData.json",
-        "format": {"type": "topojson", "feature":"ne_110m_admin_0_countries"}
-                },
-        "mark": {"type": "geoshape", "fill": "lightgray", "stroke":"darkgray"}
-        },
-        {
-            "data": {
-            "url": "https://raw.githubusercontent.com/twuu0064/vis_2/refs/heads/main/data/country_of_birth.csv"
-            },           
-"transform": [{"filter": "datum.Year == YearSelect" }, {"filter": "datum.AustraliansBorn > 0"},{"lookup": "Country",
-        "from": {
-        "data": {
-        "url": "https://raw.githubusercontent.com/twuu0064/vis_2/refs/heads/main/data/longitude_latitude.csv"
-        },
-        "key": "CountryLongLat",
-        "fields": ["Latitude", "Longitude"]
-        }}
-              ],
-            "mark": {"type": "circle"},
-            "encoding": {
-            "longitude": {"field": "Longitude", "type": "quantitative"},
-            "latitude": {"field": "Latitude", "type": "quantitative"},
-            "color": {
-              "value": "#00008B"
-            },
-            "size": {
-            "field": "AustraliansBorn",
-            "type": "quantitative",
-            "title": "Number of Australians Born",
-            "scale": {"type": "sqrt", "bins": {"start": 0, "stop": 20000000, "step": 2000000}}
-            },
-            "tooltip":[{"field": "Country", "type": "ordinal"},
-            {"field": "AustraliansBorn", "type": "quantitative", "title": "Number of Australians Born", "format":","}]
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "background": "#e3f1fe",
+  "config": {"view": {"stroke": null},  "legend": {"orient": "bottom"}},
+      "params": [{
+            "name": "YearSelect",
+            "value": 1996,
+            "bind": {
+            "input": "range",
+            "min": 1996,
+            "max": 2023,
+            "step": 1,
+            "name": "Select a year: "
             }
-        }
-            ]
+            }],
+  "hconcat": [
+    {
+       "width": 1000,
+  "height": 450,
+  "projection": {"type": "equalEarth"},
+
+  "layer": [
+      {
+      "data": {
+      "url":"https://raw.githubusercontent.com/twuu0064/vis_2/refs/heads/main/js/worldData.json",
+      "format": {"type": "topojson", "feature":"ne_110m_admin_0_countries"}
+              },
+      "mark": {"type": "geoshape", "fill": "lightgray", "stroke":"darkgray"}
+      },
+      {
+          "data": {
+          "url": "https://raw.githubusercontent.com/twuu0064/vis_2/refs/heads/main/data/country_of_birth.csv"
+          },           
+      "transform": [{"filter": "datum.Year == YearSelect" }, {"filter": "datum.AustraliansBorn > 0"},{"lookup": "Country",
+      "from": {
+      "data": {
+      "url": "https://raw.githubusercontent.com/twuu0064/vis_2/refs/heads/main/data/longitude_latitude.csv"
+      },
+      "key": "CountryLongLat",
+      "fields": ["Latitude", "Longitude"]
+      }}
+            ],
+          "mark": {"type": "circle"},
+          "encoding": {
+          "longitude": {"field": "Longitude", "type": "quantitative"},
+          "latitude": {"field": "Latitude", "type": "quantitative"},
+          "color": {
+            "value": "#00008B"
+          },
+          "size": {
+          "field": "AustraliansBorn",
+          "type": "quantitative",
+          "title": "Number of Australians Born",
+          "scale": {"type": "sqrt", "bins": {"start": 0, "stop": 20000000, "step": 2000000}}
+          },
+          "tooltip":[{"field": "Country", "type": "ordinal"},
+          {"field": "AustraliansBorn", "type": "quantitative", "title": "Number of Australians Born", "format":","}]
+          }
+      }
+          ]
+    },
+    {  "title":"Top 10 Countries where Australians are Born in",
+      "width": 500,
+      "height": 300,
+      "data": {"url": "https://raw.githubusercontent.com/twuu0064/vis_2/refs/heads/main/data/country_of_birth.csv"},
+      "mark": "bar",
+      "transform": [{"filter": "datum.AustraliansBorn > 0"},
+      {"filter":"datum.Country != 'Australia'"}, 
+      {
+        "filter": "datum.Year == YearSelect"
+      },
+             {"aggregate": [{"op": "sum","field": "AustraliansBorn", "as": "AustraliansBorn"}],"groupby": ["Country"]},
+{"sort": [{"field": "AustraliansBorn", "order": "descending"}],"window": [{"op": "rank", "as": "rank"}]},
+  {
+    "filter": "datum.rank <= 10"
+  }
+      ],
+      "encoding": {
+      "x": {"field": "AustraliansBorn", "type": "quantitative", "title": "Number of Australians Born"},
+      "y": {"field": "Country", "type": "nominal",
+      "sort": {"field": "AustraliansBorn", "order":"descending"}},
+      "color": {"value": "#00008B"},
+      "tooltip":[{"field": "Country", "type": "ordinal"},
+            {"field": "AustraliansBorn", "type": "quantitative", "title": "Number of Australians Born", "format":","}]
+
+      }
+
+    }
+  ]
+
 } 
