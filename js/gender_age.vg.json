@@ -8,6 +8,9 @@
     "width": 800,
     "height": 400,
     "mark": "bar",
+    "params": [
+      {"name": "select", "select": "point"}
+    ],
     "encoding": {
       "y": {
         "field": "Age_Group", "title": "Age Group", "sort": ["0-4 years", "5-9 years"]
@@ -16,6 +19,10 @@
         "aggregate": "sum", "field": "signed_people",
         "title": "Australian Population",
         "axis": {"format": "s"}
+      },
+      "fillOpacity": {
+        "condition": {"param": "select", "value": 1},
+        "value": 0.3
       },
       "color": {
         "field": "Sex",
