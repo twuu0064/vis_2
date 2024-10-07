@@ -127,6 +127,8 @@ h1 {
     outline: 5px;
     outline-color: #d2f6fa;
     background-color: #91cbff;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 h2 {
@@ -135,6 +137,8 @@ h2 {
     text-align: center;
     font-size: 50px;
     background-color: #b7ddff;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .aus_subheading {
@@ -161,6 +165,8 @@ p {
   font-family: 'Sarabun';
   font-weight: 400;
   font-size: 16px;
+  margin-left: 20px;
+  margin-right: 20px;
 
 }
 

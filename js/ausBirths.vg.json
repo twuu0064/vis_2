@@ -1,0 +1,19 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "background": "#e3f1fe",
+    "title": "Proportions of Australians born in Australia",
+    "width": 900,
+    "height": 300,
+    "config": {"view": {"stroke": null}, "font": "Sarabun"},
+    "data": {"url": "https://raw.githubusercontent.com/twuu0064/vis_2/refs/heads/main/data/ausBirths.csv"},
+    "mark": "line",
+    "encoding": {
+        "x": {"field": "Year", "type": "temporal", "timeUnit": "year", "title": "Year"},
+        "y": {"field": "PropAus", "type": "quantitative", "title": "Proportion of Australians", 
+                "scale": {"zero":false}
+                },
+        "color": {"value": "#00008B"},
+        "tooltip": [{"field": "Year", "type": "temporal", "timeUnit": "year", "title": "Year"},
+        {"field": "PropAus", "type": "quantitative", "title": "Proportion of Australians", "format": ".3"}]
+    }
+}

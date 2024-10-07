@@ -6,7 +6,7 @@
       {"calculate": "datum.Sex == 'Female' ? -datum.Num_of_Australians : datum.Num_of_Australians", "as": "signed_people"}
     ],
     "width": 800,
-    "height": 400,
+    "height": 500,
     "mark": "bar",
     "params": [
       {"name": "select", "select": "point"}
@@ -33,7 +33,8 @@
     },
     "config": {
       "view": {"stroke": null},
-      "axis": {"grid": false}
+      "axis": {"grid": false},
+      "font": "Sarabun"
     }
   }
   
