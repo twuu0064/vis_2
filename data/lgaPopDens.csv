@@ -1,0 +1,546 @@
+﻿LGA,PopDens
+Albury,188.2
+Armidale,3.8
+Ballina,97.5
+Balranald,0.1
+Bathurst,11.7
+Bayside (NSW),3614.9
+Bega Valley,5.8
+Bellingen,8.3
+Berrigan,4.2
+Blacktown,1784.4
+Bland,0.6
+Blayney,5.0
+Blue Mountains,54.8
+Bogan,0.2
+Bourke,0.1
+Brewarrina,0.1
+Broken Hill,103.6
+Burwood,5962.0
+Byron,65.6
+Cabonne,2.3
+Camden,668.9
+Campbelltown (NSW),593.4
+Canada Bay,4586.7
+Canterbury-Bankstown,3445.6
+Carrathool,0.1
+Central Coast (NSW),209.4
+Central Darling,0.0
+Cessnock,34.4
+Clarence Valley,5.3
+Cobar,0.1
+Coffs Harbour,68.6
+Coolamon,1.9
+Coonamble,0.4
+Cootamundra-Gundagai,2.9
+Cowra,4.5
+Cumberland,3372.2
+Dubbo,7.5
+Dungog,4.3
+Edward River,0.9
+Eurobodalla,11.9
+Fairfield,2066.3
+Federation,2.3
+Forbes,2.0
+Georges River,4122.6
+Gilgandra,0.9
+Glen Innes Severn,1.6
+Goulburn Mulwaree,10.2
+Greater Hume,2.0
+Griffith,16.6
+Gunnedah,2.7
+Gwydir,0.5
+Hawkesbury,24.6
+Hay,0.2
+Hilltops,2.7
+Hornsby,338.6
+Hunters Hill,2455.2
+Inner West,5348.4
+Inverell,1.9
+Junee,3.2
+Kempsey,9.3
+Kiama,89.3
+Ku-ring-gai,1486.8
+Kyogle,2.6
+Lachlan,0.4
+Lake Macquarie,338.0
+Lane Cove,3965.0
+Leeton,9.8
+Lismore,34.1
+Lithgow,4.6
+Liverpool,810.1
+Liverpool Plains,1.5
+Lockhart,1.2
+Maitland,245.1
+Mid-Coast,9.7
+Mid-Western,3.0
+Moree Plains,0.7
+Mosman,3360.7
+Murray River,1.1
+Murrumbidgee,0.5
+Muswellbrook,4.9
+Nambucca Valley,13.9
+Narrabri,1.0
+Narrandera,1.4
+Narromine,1.2
+Newcastle,933.4
+North Sydney,6864.4
+Northern Beaches,1053.9
+Oberon,1.5
+Orange,155.7
+Parkes,2.4
+Parramatta,3210.6
+Penrith,554.7
+Port Macquarie-Hastings,24.3
+Port Stephens,90.6
+Queanbeyan-Palerang,12.3
+Randwick,3904.1
+Richmond Valley,7.8
+Ryde,3353.1
+Shellharbour,540.9
+Shoalhaven,24.1
+Singleton,5.2
+Snowy Monaro,1.5
+Snowy Valleys,1.7
+Strathfield,3415.8
+Sutherland,704.6
+Sydney,8662.6
+Tamworth,6.6
+Temora,2.2
+Tenterfield,1.0
+The Hills,538.5
+Tweed,75.7
+Upper Hunter,1.8
+Upper Lachlan,1.2
+Uralla,1.9
+Wagga Wagga,14.2
+Walcha,0.5
+Walgett,0.2
+Warren,0.2
+Warrumbungle,0.7
+Waverley,7637.4
+Weddin,1.1
+Wentworth,0.3
+Willoughby,3472.5
+Wingecarribee,19.7
+Wollondilly,22.5
+Wollongong,320.2
+Woollahra,4459.0
+Yass Valley,4.4
+Unincorporated NSW,0.0
+Alpine,2.8
+Ararat,2.8
+Ballarat,159.9
+Banyule,2072.3
+Bass Coast,49.4
+Baw Baw,15.1
+Bayside (Vic.),2802.2
+Benalla,6.2
+Boroondara,2900.4
+Brimbank,1588.7
+Buloke,0.8
+Campaspe,8.5
+Cardinia,99.0
+Casey,957.7
+Central Goldfields,8.9
+Colac Otway,6.5
+Corangamite,3.6
+Darebin,2911.5
+East Gippsland,2.3
+Frankston,1102.1
+Gannawarra,2.8
+Glen Eira,4053.6
+Glenelg,3.2
+Golden Plains,9.6
+Greater Bendigo,41.4
+Greater Dandenong,1264.3
+Greater Geelong,226.6
+Greater Shepparton,28.5
+Hepburn,11.3
+Hindmarsh,0.7
+Hobsons Bay,1459.2
+Horsham,4.8
+Hume,521.5
+Indigo,8.7
+Kingston (Vic.),1791.9
+Knox,1420.1
+Latrobe (Vic.),54.8
+Loddon,1.2
+Macedon Ranges,30.3
+Manningham,1142.6
+Mansfield,2.7
+Maribyrnong,2938.7
+Maroondah,1912.3
+Melbourne,4724.9
+Melton,390.6
+Merri-bek,3556.7
+Mildura,2.6
+Mitchell,18.8
+Moira,7.6
+Monash,2498.2
+Moonee Valley,2932.1
+Moorabool,18.5
+Mornington Peninsula,235.1
+Mount Alexander,13.5
+Moyne,3.2
+Murrindindi,4.0
+Nillumbik,146.3
+Northern Grampians,2.1
+Port Phillip,5312.6
+Pyrenees,2.3
+Queenscliffe,375.8
+South Gippsland,9.4
+Southern Grampians,2.5
+Stonnington,4340.4
+Strathbogie,3.5
+Surf Coast,25.3
+Swan Hill,3.5
+Towong,0.9
+Wangaratta,8.2
+Warrnambool,296.9
+Wellington,4.3
+West Wimmera,0.4
+Whitehorse,2779.1
+Whittlesea,500.4
+Wodonga,102.3
+Wyndham,597.8
+Yarra,4986.6
+Yarra Ranges,64.3
+Yarriambiack,0.9
+Unincorporated Vic,3.4
+Aurukun,0.2
+Balonne,0.1
+Banana,0.5
+Barcaldine,0.1
+Barcoo,0.0
+Blackall Tambo,0.1
+Boulia,0.0
+Brisbane,985.4
+Bulloo,0.0
+Bundaberg,16.2
+Burdekin,3.4
+Burke,0.0
+Cairns,103.8
+Carpentaria,0.0
+Cassowary Coast,6.4
+Central Highlands (Qld),0.5
+Charters Towers,0.2
+Cherbourg,40.0
+Cloncurry,0.1
+Cook,0.0
+Croydon,0.0
+Diamantina,0.0
+Doomadgee,0.8
+Douglas,5.3
+Etheridge,0.0
+Flinders (Qld),0.0
+Fraser Coast,16.6
+Gladstone,6.4
+Gold Coast,499.5
+Goondiwindi,0.5
+Gympie,8.2
+Hinchinbrook,4.0
+Hope Vale,0.9
+Ipswich,229.6
+Isaac,0.4
+Kowanyama,0.4
+Livingstone,3.6
+Lockhart River,0.2
+Lockyer Valley,19.3
+Logan,394.3
+Longreach,0.1
+Mackay,16.7
+McKinlay,0.0
+Mapoon,0.9
+Maranoa,0.2
+Mareeba,0.4
+Moreton Bay,249.9
+Mornington,0.9
+Mount Isa,0.4
+Murweh,0.1
+Napranum,0.5
+Noosa,67.1
+North Burnett,0.5
+Northern Peninsula Area,2.8
+Palm Island,30.8
+Paroo,0.0
+Pormpuraaw,0.1
+Quilpie,0.0
+Redland,310.5
+Richmond,0.0
+Rockhampton,12.9
+Scenic Rim,10.7
+Somerset,4.9
+South Burnett,4.1
+Southern Downs,5.3
+Sunshine Coast,162.4
+Tablelands,2.4
+Toowoomba,14.0
+Torres,4.0
+Torres Strait Island,8.7
+Townsville,54.0
+Weipa,406.2
+Western Downs,0.9
+Whitsunday,1.7
+Winton,0.0
+Woorabinda,2.8
+Wujal Wujal,24.7
+Yarrabah,16.6
+Adelaide,1791.6
+Adelaide Hills,52.7
+Adelaide Plains,11.7
+Alexandrina,16.6
+Anangu Pitjantjatjara Yankunytjatjara,0.0
+Barossa,29.4
+Barunga West,1.7
+Berri Barmera,22.5
+Burnside,1724.1
+Campbelltown (SA),2347.6
+Ceduna,0.7
+Charles Sturt,2326.1
+Clare and Gilbert Valleys,5.0
+Cleve,0.4
+Coober Pedy,20.0
+Copper Coast,20.6
+Elliston,0.2
+Flinders Ranges,0.4
+Franklin Harbour,0.5
+Gawler,651.2
+Goyder,0.6
+Grant,4.8
+Holdfast Bay,2818.9
+Kangaroo Island,1.2
+Karoonda East Murray,0.2
+Kimba,0.2
+Kingston (SA),0.7
+Light,13.0
+Lower Eyre Peninsula,1.3
+Loxton Waikerie,1.5
+Maralinga Tjarutja,0.0
+Marion,1770.2
+Mid Murray,1.5
+Mitcham,920.5
+Mount Barker,71.1
+Mount Gambier,821.6
+Mount Remarkable,0.8
+Murray Bridge,12.5
+Naracoorte Lucindale,2.0
+Northern Areas,1.6
+Norwood Payneham and St Peters,2602.8
+Onkaparinga,349.1
+Orroroo Carrieton,0.3
+Peterborough,0.6
+Playford,310.2
+Port Adelaide Enfield,1510.3
+Port Augusta,12.5
+Port Lincoln,494.5
+Port Pirie,10.0
+Prospect,2969.5
+Renmark Paringa,11.0
+Robe,1.5
+Roxby Downs,37.2
+Salisbury,933.5
+Southern Mallee,0.4
+Streaky Bay,0.4
+Tatiara,1.1
+Tea Tree Gully,1089.0
+Coorong,0.6
+Tumby Bay,1.1
+Unley,2798.0
+Victor Harbor,43.9
+Wakefield,2.0
+Walkerville,2385.3
+Wattle Range,3.1
+West Torrens,1739.6
+Whyalla,20.4
+Wudinna,0.2
+Yankalilla,8.1
+Yorke Peninsula,2.0
+Unincorporated SA,0.0
+Albany,9.5
+Armadale,187.8
+Ashburton,0.1
+Augusta Margaret River,8.8
+Bassendean,1635.0
+Bayswater,2145.9
+Belmont,1154.5
+Beverley,0.7
+Boddington,0.9
+Boyup Brook,0.7
+Bridgetown-Greenbushes,4.2
+Brookton,0.6
+Broome,0.3
+Broomehill-Tambellup,0.4
+Bruce Rock,0.4
+Bunbury,531.5
+Busselton,30.2
+Cambridge,1418.0
+Canning,1598.2
+Capel,34.7
+Carnamah,0.2
+Carnarvon,0.1
+Chapman Valley,0.4
+Chittering,5.3
+Claremont,2457.5
+Cockburn,775.8
+Collie,5.4
+Coolgardie,0.1
+Coorow,0.3
+Corrigin,0.4
+Cottesloe,2254.7
+Cranbrook,0.4
+Cuballing,0.8
+Cue,0.0
+Cunderdin,0.7
+Dalwallinu,0.2
+Dandaragan,0.6
+Dardanup,29.8
+Denmark,3.6
+Derby-West Kimberley,0.1
+Donnybrook-Balingup,4.1
+Dowerin,0.4
+Dumbleyung,0.3
+Dundas,0.0
+East Fremantle,2619.8
+East Pilbara,0.0
+Esperance,0.3
+Exmouth,0.5
+Fremantle,1822.6
+Gingin,1.9
+Gnowangerup,0.3
+Goomalling,0.5
+Gosnells,1079.0
+Greater Geraldton,4.2
+Halls Creek,0.0
+Harvey,17.8
+Irwin,1.6
+Jerramungup,0.2
+Joondalup,1714.7
+Kalamunda,193.2
+Kalgoorlie-Boulder,0.3
+Karratha,1.6
+Katanning,2.8
+Kellerberrin,0.6
+Kent,0.1
+Kojonup,0.7
+Kondinin,0.1
+Koorda,0.1
+Kulin,0.2
+Kwinana,434.1
+Lake Grace,0.1
+Laverton,0.0
+Leonora,0.1
+Mandurah,567.6
+Manjimup,1.3
+Meekatharra,0.0
+Melville,2089.4
+Menzies,0.0
+Merredin,1.0
+Mingenew,0.2
+Moora,0.6
+Morawa,0.2
+Mosman Park,2307.7
+Mount Magnet,0.1
+Mount Marshall,0.0
+Mukinbudin,0.2
+Mundaring,64.4
+Murchison,0.0
+Murray,11.6
+Nannup,0.5
+Narembeen,0.2
+Narrogin,3.1
+Nedlands,1228.2
+Ngaanyatjarraku,0.0
+Northam,8.5
+Northampton,0.3
+Nungarin,0.2
+Peppermint Grove,1625.9
+Perenjori,0.1
+Perth,2392.4
+Pingelly,0.8
+Plantagenet,1.2
+Port Hedland,0.9
+Quairading,0.5
+Ravensthorpe,0.2
+Rockingham,578.0
+Sandstone,0.0
+Serpentine-Jarrahdale,40.8
+Shark Bay,0.0
+South Perth,2357.3
+Stirling,2328.6
+Subiaco,3358.7
+Swan,164.5
+Tammin,0.4
+Three Springs,0.2
+Toodyay,2.9
+Trayning,0.2
+Upper Gascoyne,0.0
+Victoria Park,2273.3
+Victoria Plains,0.3
+Vincent,3526.8
+Wagin,0.9
+Wandering,0.3
+Wanneroo,335.8
+Waroona,5.4
+West Arthur,0.3
+Westonia,0.1
+Wickepin,0.3
+Williams,0.5
+Wiluna,0.0
+Wongan-Ballidu,0.4
+Woodanilling,0.4
+Wyalkatchem,0.3
+Wyndham-East Kimberley,0.1
+Yalgoo,0.0
+Yilgarn,0.0
+York,1.7
+Christmas Island,13.4
+Cocos Islands,46.0
+Break O`Day,2.0
+Brighton,116.8
+Burnie,33.5
+Central Coast (Tas.),25.0
+Central Highlands (Tas.),0.3
+Circular Head,1.7
+Clarence,168.4
+Derwent Valley,2.8
+Devonport,242.5
+Dorset,2.2
+Flinders (Tas.),0.5
+George Town,11.2
+Glamorgan-Spring Bay,2.0
+Glenorchy,419.3
+Hobart,718.4
+Huon Valley,3.5
+Kentish,5.9
+King Island,1.5
+Kingborough,57.2
+Latrobe (Tas.),21.8
+Launceston,50.8
+Meander Valley,6.4
+Northern Midlands,2.8
+Sorell,30.2
+Southern Midlands,2.6
+Tasman,4.1
+Waratah-Wynyard,4.2
+West Coast,0.5
+West Tamar,37.7
+Alice Springs,89.1
+Barkly,0.0
+Belyuen,4.0
+Central Desert,0.0
+Coomalie,0.7
+Darwin,768.1
+Darwin Waterfront Precinct,378.7
+East Arnhem,0.3
+Katherine,1.5
+Litchfield,8.1
+MacDonnell,0.0
+Palmerston,603.0
+Roper Gulf,0.0
+Tiwi Islands,0.4
+Victoria Daly,0.0
+Wagait,81.9
+West Arnhem,0.1
+West Daly,0.2
+Unincorporated NT,0.4
