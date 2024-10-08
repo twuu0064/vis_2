@@ -143,7 +143,6 @@ h2 {
 
 .aus_subheading {
     color: #00008B;
-    font-style: italic; 
 }
 
 h3 {
@@ -175,7 +174,21 @@ p {
   text-align: center;
 }
 
+.pAus{
+  font-weight: 800;
+  color: #00008B; 
+}
+
+.h4Aus{
+  color: #00008B; 
+}
+
+.pBold{
+  font-weight: 800;
+}
+
 .future_aus{
   text-align: center;
 }
+
 
