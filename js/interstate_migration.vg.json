@@ -5,7 +5,7 @@
   "data": {"url": "https://raw.githubusercontent.com/twuu0064/vis_2/refs/heads/main/data/interstate_migration.csv"},
   "vconcat": [
       {
-          "width": 500, 
+          "width": 700, 
           "height": 400,
           
           "mark": "line",
@@ -31,7 +31,7 @@
           }
       },
       {
-          "width": 500,
+          "width": 700,
           "height": 100,
           "mark": "line",
           "params": [
