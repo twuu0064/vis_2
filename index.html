@@ -105,8 +105,9 @@
     <div class="pure-g">
 
         <div class="pure-u-2-3">
-            <h3> 2023 State Population Density (Persons/km2)</h3>
-            <div id="pop_density", class="pop_dens"> </div>
+            <h3> 2023 Local Government Area (LGA) Population Density (Persons/km2) </h3>
+            <div id = "lga_popdens" ></div>
+            <p> <span class = "subtext">LGAs coloured in grey have a population density of 0</span>  </p>
 
         </div>
         <div class = "pure-u-1-3">
@@ -115,6 +116,13 @@
                 Victoria (VIC) and New South Wales (NSW) are the next most densely populated states with population densities of 30 and 10.4 persons per square kilometre. 
                 The least densely populated state/territory is the Northern Territory with a population density of 0.2 persons per square kilometre. 
             </p>
+
+            <p> Overall, most Australians tend to populate around the coasts of Australia. This is evident in the graph to the left where most of 
+                central Australia has a population density of 0. The reason for this is because central Australia is mostly desert and has conditions that
+                are not suitable for living.
+            </p>
+            <h3> 2023 State Population Density (Persons/km2)</h3>
+            <div id="pop_density", class="pop_dens"> </div>
 
         </div>
             <!-- ADD MORE GRANULATED MAP HERE ???-->
@@ -309,7 +317,8 @@
     var vg_5 = "./js/gender_age.vg.json";
     var vg_6 = "./js/futurePopulation.vg.json";
     var vg_7 = "./js/ausAge.vg.json";
-    var vg_8 = "./js/ausBirths.vg.json"
+    var vg_8 = "./js/ausBirths.vg.json";
+    var vg_9 = "./js/lgaPopDens.vg.json"
 
     vegaEmbed("#country_birth", vg_1).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view 
@@ -341,6 +350,10 @@
         }).catch(console.error);
 
     vegaEmbed("#aus_births", vg_8).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view 
+        }).catch(console.error);
+
+    vegaEmbed("#lga_popdens", vg_9).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view 
         }).catch(console.error);
     </script>

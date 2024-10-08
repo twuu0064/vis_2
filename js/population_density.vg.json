@@ -2,8 +2,8 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "background": "#e3f1fe",
     "config": {"view": {"stroke": null}, "font": "Sarabun"},
-    "width": 800,
-    "height": 600,
+    "width": 300,
+    "height": 250,
     "projection": {"type": "equirectangular"},
     "layer":[
         {

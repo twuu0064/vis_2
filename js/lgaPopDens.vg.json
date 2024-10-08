@@ -1,0 +1,60 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "background": "#e3f1fe",
+    "config": {"view": {"stroke": null}, "font": "Sarabun"},
+    "width": 850,
+    "height": 500,
+    "projection": {"type": "equirectangular"},
+    "layer":[
+        
+        {
+        "data": {
+        "url": "https://raw.githubusercontent.com/twuu0064/vis_2/refs/heads/main/js/lga2023.json",
+        "format": {"type": "topojson", "feature": "LGA_2023_AUST_GDA2020"}},
+        "mark": {"type": "geoshape", "fill": "#e7e7e7", "stroke": "darkgray"}
+        },
+        {
+        "data": {
+        "url": "https://raw.githubusercontent.com/twuu0064/vis_2/refs/heads/main/js/lga2023.json",
+        "format": {"type": "topojson", "feature": "LGA_2023_AUST_GDA2020"}
+    },
+    "transform": [
+        {
+        "lookup": "properties.LGA_NAME23",
+        "from": {
+        "data": {
+        "url": "https://raw.githubusercontent.com/twuu0064/vis_2/refs/heads/main/data/lgaPopDens.csv"
+        },
+        "key": "LGA",
+        "fields": ["PopDens"]
+        }
+        },
+        {
+            "filter": "datum.PopDens != 0"
+        }
+    ],
+    "mark": {"type": "geoshape", "stroke": "darkgray"},
+    "encoding": {
+        "color": {
+        "field": "PopDens",
+        "type": "quantitative",
+        "scale": {"type": "log"},
+        "title": "Population Density"
+        },
+
+        "tooltip": [
+            {"field": "properties.LGA_NAME23", "type": "nominal", "title":
+            "Local Government Area"},
+            {"field": "PopDens", "type": "quantitative", "title": "Population Density (persons/km2)"}
+            ]
+    }
+        },
+
+        {
+            "data": {"url": "https://raw.githubusercontent.com/twuu0064/vis_2/refs/heads/main/js/stateGraticules.json", 
+            "format":{"type": "topojson", "feature": "ne_110m_graticules_30"}},
+            "mark": {"type": "geoshape", "fill": null, "stroke":"lightgray"}
+        }
+    ]
+    
+    }
