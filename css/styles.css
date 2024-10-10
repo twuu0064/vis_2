@@ -202,5 +202,13 @@ p {
 }
 
 .visContainer2{
+  width: 75%;
+}
+
+.visContainer3{
+  width: 90%;
+}
+
+.visContainer4{
   width: 80%;
 }
