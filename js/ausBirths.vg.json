@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "background": "#e3f1fe",
     "title": "Proportions of Australians born in Australia",
-    "width": 900,
+    "width": "container",
     "height": 300,
     "config": {"view": {"stroke": null}, "font": "Sarabun"},
     "data": {"url": "https://raw.githubusercontent.com/twuu0064/vis_2/refs/heads/main/data/ausBirths.csv"},

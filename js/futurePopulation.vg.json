@@ -5,7 +5,7 @@
     "data": {"url": "https://raw.githubusercontent.com/twuu0064/vis_2/refs/heads/main/data/ausPop.csv"},
     "vconcat": [
         {
-          "width": 800, 
+          "width": "container", 
           "height": 400,
           "selection": {
           "scenario_highlight": {
@@ -37,7 +37,7 @@
       }
       },
       {
-        "width": 800,
+        "width": "container",
         "height": 150,
         "mark": {"type":"line"},
         "params": [

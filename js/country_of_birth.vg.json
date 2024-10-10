@@ -13,10 +13,10 @@
             "name": "Select a year: "
             }
             }],
-  "hconcat": [
+  "vconcat": [
     {
        "width": 900,
-  "height": 400,
+  "height": 350,
   "projection": {"type": "equalEarth"},
 
   "layer": [
@@ -69,8 +69,8 @@
           ]
     },
     {  "title":"Top 10 Overseas Countries where Australians are Born in",
-      "width": 400,
-      "height": 400,
+      "width": "container",
+      "height": 200,
       "data": {"url": "https://raw.githubusercontent.com/twuu0064/vis_2/refs/heads/main/data/country_of_birth.csv"},
       "mark": "bar",
       "transform": [{"filter": "datum.AustraliansBorn > 0"},

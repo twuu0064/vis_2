@@ -5,7 +5,7 @@
     "transform": [
       {"calculate": "datum.Sex == 'Female' ? -datum.Num_of_Australians : datum.Num_of_Australians", "as": "signed_people"}
     ],
-    "width": 800,
+    "width": "container",
     "height": 500,
     "mark": "bar",
     "params": [

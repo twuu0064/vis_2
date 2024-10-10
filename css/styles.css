@@ -175,7 +175,6 @@ p {
 }
 
 .pAus{
-  font-weight: 800;
   color: #00008B; 
 }
 
@@ -191,4 +190,10 @@ p {
   text-align: center;
 }
 
+.visContainer {
+  width: 100%;
+}
 
+.visContainer2{
+  width: 80%;
+}
