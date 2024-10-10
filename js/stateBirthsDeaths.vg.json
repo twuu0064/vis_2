@@ -29,7 +29,7 @@
             "mark": "line",
 
             "encoding": {
-            "x": {"field": "Year", "type": "temporal", "timeUnit":"year",  "scale":{"domain":{"param": "brush"}}},
+            "x": {"field": "Year", "type": "temporal", "timeUnit":"year",  "scale":{"domain":{"param": "brush"}}, "title": null},
             "y": {"field": "Total", "type": "quantitative"},
             "color": {"field": "State/Territory", "type": "nominal", "sort": {"field": "State/Territory", "order":"ascending"}, "scale": {"scheme": "set2"},
                         "legend":null},
@@ -48,7 +48,7 @@
             "transform": [{"filter": "datum['State/Territory']==='Australia'"}],
             "mark": "line",
             "encoding": {
-              "x": {"field": "Year", "type": "temporal", "timeUnit":"year"},
+              "x": {"field": "Year", "type": "temporal", "timeUnit":"year", "title": "Year"},
               "y": {"field": "Total", "type": "quantitative"},
               "color": {"field":"Series", "type": "nominal", "scale": {"domain": ["Births", "Deaths"], "scheme":["#1b9e77", "#7570b3"]}},
               "tooltip": [{"field":"Year", "type": "temporal", "timeUnit": "year", "title":"Year"},

@@ -58,13 +58,14 @@
     <div class = "pure-g">
         <div class = "pure-u-2-3">
             <h3> Country of Birth of <span class="h4Aus">Australians </span> </h3>
+            <p> <span class = "subtext">Use the slider at the bottom to change year of view. Hover over the dots or bars for exact data.</span>  </p>
             <div id="country_birth", class="visContainer2"> </div>
            
         </div>
         <div class= "pure-u-1-3">
-            
+            <h3> Proportion of <span class="h4Aus">Australians </span> Born in Australia</h3>
+            <p> <span class = "subtext">Please note that the below graph's x-axis does NOT begin at 0.</span>  </p>
             <div id = "aus_births", class="visContainer"></div>
-            <p> <span class = "subtext">Please note that the above graph's x-axis does NOT begin at 0.</span>  </p>
 
             <p> 
                 As expected, the <span class = "pBold" > majority of </span>  <span class = "pAus"> Australians</span> <span class = "pBold" > are born in Australia</span> Generally, <span class = "pBold" > many </span> <span class = "pAus">Australians</span> 
@@ -107,8 +108,8 @@
 
         <div class="pure-u-2-3">
             <h3> 2023 Local Government Area (LGA) Population Density (Persons/km2) </h3>
-            <div id = "lga_popdens", class="visContainer" ></div>
             <p> <span class = "subtext">LGAs coloured in grey have a population density of 0</span>  </p>
+            <div id = "lga_popdens", class="visContainer" ></div>
 
         </div>
         <div class = "pure-u-1-3">
@@ -140,7 +141,7 @@
     <div class="pure-g">
         <div class="pure-u-2-3">
             <h3> Net Interstate Migration by State/Territory</h3>
-            <p> <span class = "subtext">Use the legend to highlight a state!</span>  </p>
+            <p> <span class = "subtext">Use the legend to highlight a state and select a time period on the bottom graph for more detail.</span>  </p>
             <div id="int_mig", class="visContainer2"></div>
             <p>
                 Net interstate migration is the departures from a particular state deducted from the total arrivals into that state.
@@ -178,6 +179,7 @@
         </div>
         <div class="pure-u-1-3">
             <h3> Births and Deaths by State/Territory </h3>
+            <p> <span class = "subtext">Select a time period on the bottom graph for more detail.</span>  </p>
             <div id ="state_birth_death", class="visContainer2"></div>
 
                     <p> 
@@ -208,7 +210,7 @@
     <div class="pure-g">
         <div class="pure-u-2-3">
             <h3> Age and Sex Distribution of <span class="h4Aus">Australians </span></h3>
-            <!-- Insert Chart here -->
+            <p> <span class = "subtext">Click on a bar to highlight it.</span>  </p>
              <div id= "census_age", class="visContainer"></div>
         </div>
 
@@ -239,10 +241,9 @@
     <div class="pure-g">
         <div class="pure-u-2-3">
             <h3> Projected <span class="h4Aus">Australian </span> Population</h3>
-            <!-- Insert Chart here -->
-            <div id="future_aus", class="visContainer"></div>
-            <p> <span class = "subtext">Please note that the above graph's x-axis does NOT begin at 0. Use the legend to highlight a scenario!</span>  </p>
-       
+            <p> <span class = "subtext">Please note that the below graph's x-axis does NOT begin at 0. Use the legend to highlight a scenario and select a time period on the bottom graph for more detail.</span>  </p>
+            <div id="future_aus", class="visContainer2"></div>
+
         </div>
 
         <div class = "pure-u-1-3">
@@ -259,13 +260,7 @@
                 Australia's population is predicted to be 39.19 million people (increase of under 13 million from 2023). In the low scenario Australia's population growth decreases gradually over time and looks to plateau. In 2071, Australia's 
                 population is predicted to be 34.34 million (increase of under 8 million from 2023).
             </p>
-
-            <p>
-                How much Australia's population grows will largely <span class = "pBold" >depend on migration rates particularly with conflicts occurring around the world. Furthermore,
-                it will also depend on any health events such as COVID-19 as well as cultural changes regarding families. </span> Over time, people have had less children,
-                particularly in developed countries such as Australia, as such, it will be interesting to see whether fertility rates continue to decrease or will rise again in future.
-            </p>
-
+           
             <h4> Metadata </h4> 
             <p> <span class = "subtext">Acknowledgements to the Australian Bureau of Statistics, Paul Mooney, jrrickard and Natural Earth for the data.
 
@@ -311,40 +306,40 @@
     var vg_8 = "./js/ausBirths.vg.json";
     var vg_9 = "./js/lgaPopDens.vg.json"
 
-    vegaEmbed("#country_birth", vg_1).then(function(result) {
+    vegaEmbed("#country_birth", vg_1, {"actions": false}).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view 
         }).catch(console.error);
 
-    vegaEmbed("#pop_density", vg_2).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view 
-        }).catch(console.error);
-
-    vegaEmbed("#state_birth_death", vg_4).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view 
-        }).catch(console.error);
-
-    vegaEmbed("#census_age", vg_5).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view 
-        }).catch(console.error);
-
-
-    vegaEmbed("#int_mig", vg_3).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view 
-        }).catch(console.error);
-
-    vegaEmbed("#future_aus", vg_6).then(function(result) {
+    vegaEmbed("#pop_density", vg_2, {"actions": false}).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view 
         }).catch(console.error);
     
-    vegaEmbed("#census_age_2", vg_7).then(function(result) {
+    vegaEmbed("#int_mig", vg_3, {"actions": false}).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view 
         }).catch(console.error);
 
-    vegaEmbed("#aus_births", vg_8).then(function(result) {
+    vegaEmbed("#state_birth_death", vg_4, {"actions": false}).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view 
         }).catch(console.error);
 
-    vegaEmbed("#lga_popdens", vg_9).then(function(result) {
+    vegaEmbed("#census_age", vg_5, {"actions": false}).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view 
+        }).catch(console.error);
+
+
+    vegaEmbed("#future_aus", vg_6, {"actions": false}).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view 
+        }).catch(console.error);
+    
+    vegaEmbed("#census_age_2", vg_7, {"actions": false}).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view 
+        }).catch(console.error);
+
+    vegaEmbed("#aus_births", vg_8, {"actions": false}).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view 
+        }).catch(console.error);
+
+    vegaEmbed("#lga_popdens", vg_9, {"actions": false}).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view 
         }).catch(console.error);
     </script>

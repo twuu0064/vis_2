@@ -1,7 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "background": "#e3f1fe",
-    "title": "Proportions of Australians born in Australia",
     "width": "container",
     "height": 300,
     "config": {"view": {"stroke": null}, "font": "Sarabun"},

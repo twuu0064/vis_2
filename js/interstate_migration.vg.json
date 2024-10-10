@@ -32,7 +32,7 @@
       },
       {
           "width": "container",
-          "height": 100,
+          "height": 120,
           "mark": "line",
           "params": [
               {"name": "brush", "select": {"type": "interval", "encodings": ["x"]}}
