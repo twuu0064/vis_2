@@ -8,10 +8,12 @@
         "bind": {
             "input": "select",
             "options": [
+                null,
                 "Births",
                 "Deaths"
             ],
             "labels": [
+              "Show all",
                 "Births",
                 "Deaths"
             ],
@@ -24,7 +26,8 @@
             "title": "State Births and Deaths",
             "width": "container",
             "height": 400,
-            "transform": [{"filter": "datum.Series===Series_Selection"}, {"filter": "datum['State/Territory'] != 'Australia'"}],
+            "transform": [{"filter": "Series_Selection == null || datum.Series===Series_Selection"},
+             {"filter": "datum['State/Territory'] != 'Australia'"}],
 
             "mark": "line",
 
@@ -34,7 +37,8 @@
             "color": {"field": "State/Territory", "type": "nominal", "sort": {"field": "State/Territory", "order":"ascending"}, "scale": {"scheme": "set2"},
                         "legend":null},
             "tooltip": [{"field":"Year", "type": "temporal", "timeUnit": "year", "title":"Year"},
-                            {"field": "State/Territory", "type": "nominal"}, {"field": "Total", "type": "quantitative", "format":","}]
+                            {"field": "State/Territory", "type": "nominal"}, {"field": "Total", "type": "quantitative", "format":","}],
+            "strokeDash": {"field": "Series", "title": "Series (State)"}
             }
         },
 
@@ -50,7 +54,7 @@
             "encoding": {
               "x": {"field": "Year", "type": "temporal", "timeUnit":"year", "title": "Year"},
               "y": {"field": "Total", "type": "quantitative"},
-              "color": {"field":"Series", "type": "nominal", "scale": {"domain": ["Births", "Deaths"], "scheme":["#1b9e77", "#7570b3"]}},
+              "color": {"field":"Series", "type": "nominal", "scale": {"domain": ["Births", "Deaths"], "scheme":["#1b9e77", "#7570b3"]}, "title": "Series (Australia)"},
               "tooltip": [{"field":"Year", "type": "temporal", "timeUnit": "year", "title":"Year"},
             { "field": "Total", "type": "quantitative", "format":"," }]
             }
