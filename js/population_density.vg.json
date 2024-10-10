@@ -11,38 +11,38 @@
         "url": "https://raw.githubusercontent.com/twuu0064/vis_2/main/js/ausStates.json",
         "format": {"type": "topojson", "feature": "STE_2021_AUST_GDA2020"}
     },
-    "transform": [
-        {
-        "lookup": "properties.STE_NAME21",
-        "from": {
-        "data": {
-        "url": "https://raw.githubusercontent.com/twuu0064/vis_2/main/data/PopulationDensity.csv"
-        },
-        "key": "State/Territory",
-        "fields": ["Population Density"]
+        "transform": [
+            {
+            "lookup": "properties.STE_NAME21",
+            "from": {
+            "data": {
+            "url": "https://raw.githubusercontent.com/twuu0064/vis_2/main/data/PopulationDensity.csv"
+            },
+            "key": "State/Territory",
+            "fields": ["Population Density"]
+            }
+            }
+        ],
+        "mark": {"type": "geoshape", "stroke": "darkgray"},
+        "encoding": {
+            "color": {
+            "field": "Population Density",
+            "type": "quantitative",
+            "scale": {"type": "log", "scheme": "greenblue"}
+            },
+
+            "tooltip": [
+                {"field": "properties.STE_NAME21", "type": "nominal", "title":
+                "State"},
+                {"field": "Population Density", "type": "quantitative", "title": "Population Density (persons/km2)"}
+                ]
         }
-        }
-    ],
-    "mark": {"type": "geoshape", "stroke": "darkgray"},
-    "encoding": {
-        "color": {
-        "field": "Population Density",
-        "type": "quantitative",
-        "scale": {"type": "log", "scheme": "greenblue"}
         },
 
-        "tooltip": [
-            {"field": "properties.STE_NAME21", "type": "nominal", "title":
-            "State"},
-            {"field": "Population Density", "type": "quantitative", "title": "Population Density (persons/km2)"}
-            ]
-    }
-        },
-
         {
-            "data": {"url": "https://raw.githubusercontent.com/twuu0064/vis_2/refs/heads/main/js/stateGraticules.json", 
-            "format":{"type": "topojson", "feature": "ne_110m_graticules_30"}},
-            "mark": {"type": "geoshape", "fill": null, "stroke":"lightgray"}
+        "data": {"url": "https://raw.githubusercontent.com/twuu0064/vis_2/refs/heads/main/js/stateGraticules.json", 
+        "format":{"type": "topojson", "feature": "ne_110m_graticules_30"}},
+        "mark": {"type": "geoshape", "fill": null, "stroke":"lightgray"}
         }
     ]
     

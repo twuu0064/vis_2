@@ -29,12 +29,12 @@
                               "domain": ["Actual", "High", "Medium", "Low"],
                               "range": ["#00008B", "#0f660b", "#e3830f", "#d02222"]
                           }},
-            "strokeDash": {"field": "predicted", "type": "nominal", "legend":null},
-            "opacity": {
+              "strokeDash": {"field": "predicted", "type": "nominal", "legend":null},
+              "opacity": {
                       "condition": {"selection": "scenario_highlight", "value": 0.6},
                       "value": 0.2
                       }
-      }
+                }
       },
       {
         "width": "container",
@@ -44,24 +44,24 @@
             {"name": "brush", "select": {"type": "interval",
             "encodings": ["x"]}}
             ],
-          "encoding": {
-              "x": {
-                  "timeUnit": "year", "field": "Year", "title": "Year",
-                  "axis": {"domain": false, "grid": false,"format": "%Y", "tickSize": 0}
-              },
-              "y": {"field": "Population", "type": "quantitative",
-                  "scale": {"zero": false}
-                  },
-              "tooltip": [{"field":"Year", "type": "temporal", "timeUnit": "year", "title":"Year"},{"field":"Population", "type": "quantitative", "format":","}],
-              "color": {"field": "Scenario", "type": "nominal", "scale": {
-                              "domain": ["Actual", "High", "Medium", "Low"],
-                              "range": ["#00008B", "#0f660b", "#e3830f", "#d02222"]
-                          }},
-            "strokeDash": {"field": "predicted", "type": "nominal", "legend":null},
-            "opacity": {
-                      "condition": {"selection": "scenario_highlight", "value": 0.6},
-                      "value": 0.2
-                      }
+        "encoding": {
+            "x": {
+                "timeUnit": "year", "field": "Year", "title": "Year",
+                "axis": {"domain": false, "grid": false,"format": "%Y", "tickSize": 0}
+            },
+            "y": {"field": "Population", "type": "quantitative",
+                "scale": {"zero": false}
+                },
+            "tooltip": [{"field":"Year", "type": "temporal", "timeUnit": "year", "title":"Year"},{"field":"Population", "type": "quantitative", "format":","}],
+            "color": {"field": "Scenario", "type": "nominal", "scale": {
+                            "domain": ["Actual", "High", "Medium", "Low"],
+                            "range": ["#00008B", "#0f660b", "#e3830f", "#d02222"]
+                        }},
+        "strokeDash": {"field": "predicted", "type": "nominal", "legend":null},
+        "opacity": {
+                    "condition": {"selection": "scenario_highlight", "value": 0.6},
+                    "value": 0.2
+                    }
       }
       }
 
