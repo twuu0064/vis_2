@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "background": "#e3f1fe",
-  "config": {"view": {"stroke": null},  "legend": {"orient": "bottom"}, "font": "Sarabun"},
+  "config": {"view": {"stroke": null},  "legend": {"orient": "right"}, "font": "Sarabun"},
       "params": [{
             "name": "YearSelect",
             "value": 1996,
@@ -15,7 +15,7 @@
             }],
   "vconcat": [
     {
-      "width": 900,
+      "width": "container",
       "height": 350,
       "projection": {"type": "equalEarth"},
 
