@@ -6,7 +6,7 @@
   "vconcat": [
       {
           "width": "container", 
-          "height": 400,
+          "height": 440,
           
           "mark": "line",
           "params": [{
