@@ -45,7 +45,7 @@
             "tooltip": [
                 {"field": "properties.LGA_NAME23", "type": "nominal", "title":
                 "Local Government Area"},
-                {"field": "PopDens", "type": "quantitative", "title": "Population Density (persons/km2)"}
+                {"field": "PopDens", "type": "quantitative", "title": "Population Density (persons/km²)"}
                 ]
         }
         },
