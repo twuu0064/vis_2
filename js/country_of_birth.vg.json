@@ -70,7 +70,7 @@
     },
     { "title":"Top 10 Overseas Countries where Australians are Born in",
       "width": "container",
-      "height": 200,
+      "height": 250,
       "data": {"url": "https://raw.githubusercontent.com/twuu0064/vis_2/refs/heads/main/data/country_of_birth.csv"},
       "mark": "bar",
       "transform": [{"filter": "datum.AustraliansBorn > 0"},
